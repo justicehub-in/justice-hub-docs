@@ -27,8 +27,8 @@ advanced:
 
 
 * To host high quality datasets, curated and contributed by the community.
-* To work with users of data and create processes and tools to enable better interoperability within the datasets of law and justice.
-* To build a directory of researchers, CSO's, legal tech firms and individuals who deal with datasets of law and justice.
+* To work with users of data and create processes and tools to enable better interoperability between datasets.
+* To create a living directory of researchers, CSO's, legal tech firms and individuals who deal with datasets of law and justice.
 * To build tools and resources that enable better collaboration within the community.
 * To conduct trainings and knowledge sharing sessions with a diverse set of stakeholders to promote responsible data managament and sharing practices.
 * To document the problems faced by the community when dealing with the data systems of law and justice and bring stakeholders together and identify probable solutions.
