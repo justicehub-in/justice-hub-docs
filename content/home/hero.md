@@ -30,7 +30,7 @@ hero_media = "rsz_noun_cooperative_1218984.png"
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/justicehub"
+  url = "about"
   label = "Know More"
   icon_pack = "fas"
   icon = ""
