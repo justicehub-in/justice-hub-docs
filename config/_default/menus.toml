@@ -4,33 +4,64 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Demo"
-  url = "#hero"
+  name = "About"
+  url = "about"
   weight = 10
+  identifier = "about"
 
 [[main]]
-  name = "Posts"
-  url = "#posts"
+  name = "Contributors"
+  url = "contributor"
   weight = 20
 
 [[main]]
-  name = "Projects"
-  url = "#projects"
+  name = "Pledge"
+  url = "pledge"
   weight = 30
 
 [[main]]
-  name = "Publications"
-  url = "#featured"
+  name = "Resources"
+  url = "resources"
   weight = 40
 
 [[main]]
-  name = "Courses"
-  url = "courses/"
-  weight = 50
+  name = "Introduction"
+  url = "about#introduction"
+  weight = 10
+  parent = "about"
+
+[[main]]
+  name = "Team"
+  url = "team"
+  weight = 20
+  parent = "about"
 
 [[main]]
   name = "Contact"
-  url = "#contact"
+  url = "contact"
+  weight = 30
+  parent = "about"
+
+[[main]]
+  name = "Blog"
+  url = "blog"
+  weight = 40
+
+[[main]]
+  name = "Resources"
+  url = "resources/"
+  weight = 36
+
+[[main]]
+  pre = "<i class=\"fab fa-github fa-lg\"></i>"
+  name = ""
+  url = "https://github.com/justicehub-in/justice-hub-docs"
+  weight = 50
+
+[[main]]
+  pre = "<i class=\"fab fa-gitter fa-lg\"></i>"
+  name = "&nbsp;"
+  url = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/home"
   weight = 60
 
 # Link to a PDF of your resume/CV from the menu.
