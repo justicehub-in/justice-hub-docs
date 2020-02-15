@@ -59,7 +59,7 @@
   weight = 50
 
 [[main]]
-  pre = "<i class=\"fab fa-gitter fa-lg\"></i>"
+  pre = "<i class=\"fab fa-osi fa-lg\"></i>"
   name = "&nbsp;"
   url = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/home"
   weight = 60
