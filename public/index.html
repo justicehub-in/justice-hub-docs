@@ -66,8 +66,6 @@
     
 
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
-    
 
     
 
@@ -202,6 +200,42 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-158607256-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-158607256-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -221,16 +255,18 @@
   
   
     
-    
   
   
-  <meta property="twitter:card" content="summary">
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@CivicDatalab">
+  <meta property="twitter:creator" content="@CivicDatalab">
   
   <meta property="og:site_name" content="Justice Hub">
   <meta property="og:url" content="/">
   <meta property="og:title" content="Justice Hub">
-  <meta property="og:description" content="A legal data collaborative"><meta property="og:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="A legal data collaborative"><meta property="og:image" content="/img/CDL_Primary%20Logo">
+  <meta property="twitter:image" content="/img/CDL_Primary%20Logo"><meta property="og:locale" content="en-us">
   
     <meta property="og:updated_time" content="2018-06-28T00:00:00&#43;01:00">
   
@@ -259,7 +295,7 @@
   "@id": "/",
   "name": "Justice Hub",
   
-  
+  "image": "/img/CDL_Primary%20Logo",
   
   
   "address": {
@@ -699,8 +735,6 @@
     
 
     
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
     
 
     
