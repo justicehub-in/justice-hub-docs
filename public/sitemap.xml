@@ -3,13 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/about/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/people/</loc>
+    <lastmod>2020-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/license/</loc>
     <lastmod>2018-06-28T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2018-06-28T00:00:00+01:00</lastmod>
+    <loc>/authors/apoorv/</loc>
   </url>
   
   <url>
@@ -21,7 +35,39 @@
   </url>
   
   <url>
+    <loc>/authors/charlie/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/deepthichand/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/divya/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/sample-template/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/gaurav/</loc>
+  </url>
+  
+  <url>
     <loc>/publication_types/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/saurav/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/supriya/</loc>
+  </url>
+  
+  <url>
+    <loc>/authors/swati/</loc>
   </url>
   
   <url>

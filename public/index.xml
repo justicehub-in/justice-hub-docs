@@ -5,12 +5,28 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>Justice Hub</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jun 2018 00:00:00 +0100</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 15 Feb 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/img/CDL_Primary%20Logo</url>
+      <url>/img/CDL_Primary_Logo</url>
       <title>Justice Hub</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>About the Justice Hub</title>
+      <link>/about/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/about/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>People</title>
+      <link>/people/</link>
+      <pubDate>Sat, 15 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>/people/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>LICENSE: CC-BY</title>

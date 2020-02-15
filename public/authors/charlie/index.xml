@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Charlie | Justice Hub</title>
+    <link>/authors/charlie/</link>
+      <atom:link href="/authors/charlie/index.xml" rel="self" type="application/rss+xml" />
+    <description>Charlie</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/CDL_Primary_Logo</url>
+      <title>Charlie</title>
+      <link>/authors/charlie/</link>
+    </image>
+    
+  </channel>
+</rss>
