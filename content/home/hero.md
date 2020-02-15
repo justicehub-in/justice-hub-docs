@@ -17,18 +17,11 @@ hero_media = "rsz_noun_cooperative_1218984.png"
   #   Any HTML color name or Hex value is valid.
 
   # Background color.
-  # color = "white"
+  color = "white"
   
   # Background gradient.
-  gradient_start = ""
-  gradient_end = ""
-  
-  # Background image.
-  # image = ""  # Name of image in `static/img/`.
-  # image_darken = 0.6  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
-  # image_size = "cover"  #  Options are `cover` (default), `contain`, or `actual` size.
-  # image_position = "center"  # Options include `left`, `center` (default), or `right`.
-  # image_parallax = false  # Use a fun parallax-like fixed background effect? true/false
+  # gradient_start = "#75AADB"
+  # gradient_end = "#FFFFFF"
   
   # Text color (true=light or false=dark).
   text_color_light = false
@@ -51,6 +44,13 @@ hero_media = "rsz_noun_cooperative_1218984.png"
   label = ''
 +++
 
-**A legal data collaborative**
+_A legal data collaborative_
+
+* An open community
+* A platform to access quality legal data at one place 
+* A platform that enables collaboration around data storytelling and legal research
+* A collection of guidebooks and open source tools to work with data 
+* A platform that promotes empirical storytelling in the field of law and justice to narrate unbiased stories, state assumptions explicitly and stay closer to the truth. 
+
 
 <!--<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>-->
