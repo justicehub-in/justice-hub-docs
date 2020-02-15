@@ -33,7 +33,7 @@ hero_media = "rsz_noun_cooperative_1218984.png"
   url = "about"
   label = "Know More"
   icon_pack = "fas"
-  icon = ""
+  icon = "angle-right"
   
 [cta_alt]
   url = ""
