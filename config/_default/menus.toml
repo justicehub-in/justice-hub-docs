@@ -37,13 +37,14 @@
   parent = "about"
 
 [[main]]
-  name = "People"
-  url = "people"
-  weight = 55
-
-[[main]]
   name = "Contact"
   url = "about#contact"
+  weight = 30
+  parent = "about"
+  
+[[main]]
+  name = "People"
+  url = "people"
   weight = 40
   parent = "about"
 
