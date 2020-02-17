@@ -22,14 +22,14 @@ The purpose of this handbook is to lay down the `steps` and describe the `how-to
 
 ### The process
 
-[**Step 1**]() - Identification of partners as Data Contributors
+[**Step 1**](partner_identification) - Identification of partners as Data Contributors
 
-[**Step 2**]() - Reaching out to partners
+[**Step 2**](partner_communication) - Reaching out to partners
 
-[**Step 3**]() - Partner Interviews
+[**Step 3**](partner_interview_process) - Partner Interviews
 
-[**Step 4**]() - Data curation and documentation process
+[**Step 4**](partner_data_curation) - Data curation and documentation process
 
-[**Step 5**]() - Onboarding partners as data moderators
+[**Step 5**](partners_as_data_moderators) - Onboarding partners as data moderators
 
 :woman_technologist: - All resources (docs, forms, datasets and process documentation) related to the onboarding process can be accessed under the [**Resources**]() section in this Wiki. 
