@@ -51,16 +51,16 @@
   weight = 20
   parent = "Contributors"
 
+[[main]]
+  name = "Partners - On Board"
+  url = "partners-on-board"
+  weight = 30
+  parent = "Contributors"
 
 [[main]]
   name = "Pledge"
   url = "pledge"
   weight = 30
-
-[[main]]
-  name = "Resources"
-  url = "resources"
-  weight = 40
 
 [[main]]
   name = "Blog"
@@ -69,20 +69,25 @@
 
 [[main]]
   name = "Resources"
-  url = "contributor/data-contribution-handbook/dc_resources"
+  url = "data-contribution-handbook/dc_resources"
   weight = 50
+
+[[main]]
+  name = "Timeline"
+  url = "timeline"
+  weight = 60
 
 [[main]]
   pre = "<i class=\"fab fa-github fa-lg\"></i>"
   name = ""
   url = "https://github.com/justicehub-in/justice-hub-docs"
-  weight = 60
+  weight = 70
 
 [[main]]
   pre = "<i class=\"fab fa-osi fa-lg\"></i>"
   name = "&nbsp;"
   url = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/home"
-  weight = 70
+  weight = 80
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
