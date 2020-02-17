@@ -36,8 +36,20 @@
 
 [[main]]
   name = "Contributors"
-  url = "contributor"
+  url = ""
   weight = 20
+
+[[main]]
+  name = "Data Contributor Handbook"
+  url = "data-contribution-handbook"
+  weight = 10
+  parent = "Contributors"
+
+[[main]]
+  name = "Onboarding Partners - Phase 1"
+  url = "onboarding-partners"
+  weight = 20
+  parent = "Contributors"
 
 
 [[main]]

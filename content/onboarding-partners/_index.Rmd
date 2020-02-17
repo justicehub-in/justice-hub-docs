@@ -3,10 +3,6 @@ title: "List of potential data contributors"
 draft: no
 date: '2020-02-16T00:00:00Z'
 linktitle: Curating partners for building the Justice Hub
-menu:
-  help:
-    name: Curating partners for building the Justice Hub
-    weight: 10
 summary: Identifying partners to share data and help us curate knowledge around important
   legal datasets to be released in the first phase of the project
 lastmod: '2020-02-16T00:00:00Z'
@@ -19,7 +15,7 @@ type: post
 library(yaml)
 library(tidyverse)
 
-partners_curated <- yaml::read_yaml("../../../static/partner-curation.yaml", fileEncoding = 'UTF-8') %>% dplyr::bind_rows() %>% knitr::kable()
+partners_curated <- yaml::read_yaml("../../static/partner-curation.yaml", fileEncoding = 'UTF-8') %>% dplyr::bind_rows() %>% knitr::kable()
 
 partners_curated
 ```

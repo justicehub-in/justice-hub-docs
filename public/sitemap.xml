@@ -3,37 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/contributor/data-contribution-handbook/</loc>
+    <loc>/data-contribution-handbook/</loc>
     <lastmod>2020-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/contributor/data-contribution-handbook/partner_identification/</loc>
+    <loc>/data-contribution-handbook/partner_identification/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/contributor/data-contribution-handbook/dc_resources/</loc>
+    <loc>/data-contribution-handbook/dc_resources/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/contributor/data-contribution-handbook/partner_communication/</loc>
+    <loc>/data-contribution-handbook/partner_communication/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/contributor/data-contribution-handbook/partner_interview_process/</loc>
+    <loc>/data-contribution-handbook/partner_interview_process/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/contributor/data-contribution-handbook/partner_data_curation/</loc>
+    <loc>/data-contribution-handbook/partner_data_curation/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
   <url>
-    <loc>/contributor/data-contribution-handbook/partners_as_data_moderators/</loc>
+    <loc>/data-contribution-handbook/partners_as_data_moderators/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
@@ -43,7 +43,7 @@
   </url>
   
   <url>
-    <loc>/contributor/onboarding-partners/</loc>
+    <loc>/onboarding-partners/</loc>
     <lastmod>2020-02-16T00:00:00+00:00</lastmod>
   </url>
   
@@ -96,10 +96,6 @@
   
   <url>
     <loc>/publication_types/</loc>
-  </url>
-  
-  <url>
-    <loc>/contributor/</loc>
   </url>
   
   <url>
