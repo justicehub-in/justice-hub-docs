@@ -39,7 +39,12 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+    <lastmod>2020-02-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/partners-on-board/</loc>
+    <lastmod>2020-02-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -79,6 +84,10 @@
   </url>
   
   <url>
+    <loc>/data-contributors/</loc>
+  </url>
+  
+  <url>
     <loc>/authors/deepthichand/</loc>
   </url>
   
@@ -112,6 +121,10 @@
   
   <url>
     <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/data-contributors/vidhi/</loc>
   </url>
   
 </urlset>
