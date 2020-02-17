@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Resources for onboarding data contributors | Justice Hub</title>
+    <link>/contributor/</link>
+      <atom:link href="/contributor/index.xml" rel="self" type="application/rss+xml" />
+    <description>Resources for onboarding data contributors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/CDL_Primary_Logo</url>
+      <title>Resources for onboarding data contributors</title>
+      <link>/contributor/</link>
+    </image>
+    
+  </channel>
+</rss>
