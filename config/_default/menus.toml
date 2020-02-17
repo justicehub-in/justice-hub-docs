@@ -47,12 +47,12 @@
 
 [[main]]
   name = "Onboarding Partners - Phase 1"
-  url = "onboarding-partners"
+  url = "partner-curation"
   weight = 20
   parent = "Contributors"
 
 [[main]]
-  name = "Partners - On Board"
+  name = "Partners On Board"
   url = "partners-on-board"
   weight = 30
   parent = "Contributors"
