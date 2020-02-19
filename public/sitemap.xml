@@ -13,6 +13,16 @@
   </url>
   
   <url>
+    <loc>/data-curation/data_report/</loc>
+    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data-curation/cbga_data_report/</loc>
+    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/data-contribution-handbook/partner_identification/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
@@ -23,7 +33,22 @@
   </url>
   
   <url>
+    <loc>/data-curation/nipfp_data_report/</loc>
+    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/data-contribution-handbook/partner_communication/</loc>
+    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data-curation/data-curation-resources/</loc>
+    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data-curation/veratech_data_report/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
@@ -34,6 +59,11 @@
   
   <url>
     <loc>/data-contribution-handbook/partner_data_curation/</loc>
+    <lastmod>2020-02-17T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/data-curation/vidhi_data_report/</loc>
     <lastmod>2020-02-17T00:00:00+01:00</lastmod>
   </url>
   
