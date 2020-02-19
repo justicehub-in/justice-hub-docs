@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data reports | Vidhi | Justice Hub</title>
+    <link>/data-curation/nipfp/</link>
+      <atom:link href="/data-curation/nipfp/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data reports | Vidhi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <image>
+      <url>/img/CDL_Primary_Logo</url>
+      <title>Data reports | Vidhi</title>
+      <link>/data-curation/nipfp/</link>
+    </image>
+    
+  </channel>
+</rss>
