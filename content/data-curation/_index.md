@@ -30,6 +30,7 @@ The data curation process starts once a partner is on-boarded as a Data Contribu
 
 * :memo: - Check the [**Data Reports**](data_report) section to access reports for all data-contributors
 * :woman_cook: Data Contributors
+  * [**CivicDataLab**](CivicDataLab/)
   * [**CBGA**](cbga/)
   * [**NIPFP**](nipfp/)
   * [**Veratech**](veratechIN/)

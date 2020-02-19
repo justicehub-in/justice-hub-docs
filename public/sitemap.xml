@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/data-curation/civicdatalab/sampledatareport/</loc>
+    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/data-curation/nipfp/sampledatareport/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
   </url>
@@ -111,6 +116,10 @@
   
   <url>
     <loc>/authors/charlie/</loc>
+  </url>
+  
+  <url>
+    <loc>/data-curation/civicdatalab/</loc>
   </url>
   
   <url>
