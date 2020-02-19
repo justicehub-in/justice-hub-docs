@@ -3,32 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/data-curation/civicdatalab/all-pocso-cases-registered-in-delhi-district-courts-between-2012-and-2019/</loc>
+    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/data-curation/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/data-curation/cbga/sampledatareport/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/data-curation/civicdatalab/sampledatareport/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/data-curation/nipfp/sampledatareport/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/data-curation/veratechin/sdr/</loc>
-    <lastmod>2020-02-19T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/data-curation/vidhi/sampledatareport/</loc>
     <lastmod>2020-02-19T00:00:00+00:00</lastmod>
   </url>
   
