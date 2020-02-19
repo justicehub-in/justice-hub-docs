@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Curating Datasets from Data Contributors | Justice Hub</title>
+    <link>/partner-onboarding/</link>
+      <atom:link href="/partner-onboarding/index.xml" rel="self" type="application/rss+xml" />
+    <description>Curating Datasets from Data Contributors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 19 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>/img/CDL_Primary_Logo</url>
+      <title>Curating Datasets from Data Contributors</title>
+      <link>/partner-onboarding/</link>
+    </image>
+    
+  </channel>
+</rss>

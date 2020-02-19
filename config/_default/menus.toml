@@ -52,8 +52,8 @@
   parent = "Contributors"
 
 [[main]]
-  name = "Data Reports"
-  url = "data-reports"
+  name = "Data Curation"
+  url = "data-curation"
   weight = 30
   parent = "Contributors"
 
