@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: All POCSO cases registered in Delhi district courts between 2012 and 2019
 date: "2020-02-19"
-lastmod: "2020-02-24"
+lastmod: "2020-02-25"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -21,7 +21,7 @@ menu:
     weight: 1
 ---
 ### Dateset details
-|                                                                  |.                                                                                                                                                                                                                                                                                                                                                                                             |
+|Variable                                                          |Description                                                                                                                                                                                                                                                                                                                                                                                   |
 |:-----------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Title                                                             |All POCSO cases registered in Delhi district courts between 2012 and 2019                                                                                                                                                                                                                                                                                                                     |
 |Description                                                       |The dataset is curated by collecting case information from the all Delhi district courts for cases registered under the Protection of Children from Sexual Offences Act, 2012. The data (excluding judgements) was collected through eCourts in February 2020 and the timeline of data collection is from 2012 till December, 2019. Both Pending and Disposed cases are part of this dataset. |

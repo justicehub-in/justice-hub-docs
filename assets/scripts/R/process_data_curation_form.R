@@ -3,7 +3,8 @@ library(here)
 library(glue)
 library(stringr)
 library(fs)
-library(xfun)
+
+
 form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqae-7yhuZqt-ebAz9skD9hEab10ME/edit?usp=sharing'
 base_dir <- here::here("content/data-curation")
 
@@ -27,6 +28,7 @@ form_responses$org_alias <-
   form_responses$`Organisation Name` %>% unique() %>% stringr::str_to_lower() %>% stringr::str_trim()
 form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
 
+org_alias <- 'nipfp'
 create_data_report <- function(org_alias){
   org_details <- form_responses[form_responses$org_alias == org_alias,]
   for(i in 1:nrow(org_details)){
@@ -85,9 +87,10 @@ menu:
     
     #Add data report as table to the file
     data_details <- t(org_details[,dataset_columns]) %>% data.frame()
-    # names(data_details) <- c('Variable','Description')
+    data_details <- cbind(row.names(data_details), data_details)
+    names(data_details) <- c('Variable','Description')
     
-    md_data_table <- data_details %>% knitr::kable()
+    md_data_table <- data_details %>% knitr::kable(row.names = FALSE)
     data_details_md_heading <- "### Dateset details"
     
     #  Add Tags

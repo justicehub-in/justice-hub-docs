@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Contract Enforcement Litigation Data from District Courts
 date: "2020-02-21"
-lastmod: "2020-02-24"
+lastmod: "2020-02-25"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -21,7 +21,7 @@ menu:
     weight: 1
 ---
 ### Dateset details
-|                                                                  |.                                                                                                                                                                                                                                                                                                                                                                            |
+|Variable                                                          |Description                                                                                                                                                                                                                                                                                                                                                                  |
 |:-----------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Title                                                             |Contract Enforcement Litigation Data from District Courts                                                                                                                                                                                                                                                                                                                    |
 |Description                                                       |The data is collected from cases under 5 different acts - Transfer of Property Act, Specific Relief, Negotiable Instruments, Arbitration and Conciliation, Contracts Act. These all contribute to contract enforcement litigation. Court complexes from mostly 2 cities from all 29 states, where possibly there is a high court bench or either a capital(like North East). |
