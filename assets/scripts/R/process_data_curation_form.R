@@ -3,7 +3,8 @@ library(here)
 library(glue)
 library(stringr)
 library(fs)
-
+library(readr)
+library(knitr)
 
 form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqae-7yhuZqt-ebAz9skD9hEab10ME/edit?usp=sharing'
 base_dir <- here::here("content/data-curation")
@@ -147,6 +148,56 @@ menu:
       ),
       datareport_path
     )
+    
+    # Generate a md data dictionary if file present
+    all_files <- dir(org_directory)
+    if('data_dictionary.csv' %in% all_files){
+      datadictionary_path <- glue::glue("{org_directory}/data_dictionary.md")
+      
+      # Create data_dictionary.md
+      create_data_dictionary_file <- fs::file_create(path = datadictionary_path)
+      
+      data_dictionary_metadata <- glue::glue('
+title: Data Dictionary
+linktitle: Data Dictionary
+toc: false
+type: docs
+date: "{as.Date(org_details$Timestamp)}"
+draft: false
+menu:
+  {menu_title}:
+    weight: 2
+# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
+weight: 1
+')
+      
+      data_dictionary_file <-
+        readr::read_csv(
+          glue('{org_directory}/data_dictionary.csv'),
+          col_names = TRUE,
+          col_types = cols(
+            `Data Type` = col_character(),
+            Description = col_character(),
+            Variable = col_character()
+          )
+        )
+      
+      
+      md_data_dictionary_table <- data_dictionary_file %>% kable()
+        
+        
+        
+      # Add contents to the data dictionary
+      xfun::write_utf8(
+        c(
+          '---',
+          data_dictionary_metadata,
+          '---',
+          md_data_dictionary_table
+        ),
+        datadictionary_path
+      )
+    }
   }
 }
 
