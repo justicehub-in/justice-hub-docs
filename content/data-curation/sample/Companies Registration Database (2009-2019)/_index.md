@@ -17,9 +17,9 @@ tags: [mca,companies registration,director registration,registration,companies]
 # - weight: Position of link in menu.
 menu:
   onboarding:
-    name: Companies Registration 2009 - 2019
+    name: test1
     weight: 1
-    parent: Veratech
+    parent: test
 ---
 ### Dateset details
 |Variable                                                          |Description                                                                                                                                                                    |
