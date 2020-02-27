@@ -6,6 +6,8 @@ library(knitr)
 library(kableExtra)
 library(tidyverse)
 
+source("assets/scripts/R/utils.R")
+
 form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqae-7yhuZqt-ebAz9skD9hEab10ME/edit?usp=sharing'
 base_dir <- here::here("content/data-curation")
 
@@ -63,7 +65,8 @@ menu:
     name: {organisation_name}
 ') 
 
-  title_with_link <- str_replace_all(org_details$Title, pattern = ' ',replacement = '-') %>% str_to_lower() %>% str_trim(side = 'both')
+  title_with_link <- lapply(org_details$Title, title_to_link) %>% unlist()
+    
   org_details$Title <- text_spec(org_details$Title, link = glue('{title_with_link}'))
   org_details$`Dataset URL` <-
     ifelse(
