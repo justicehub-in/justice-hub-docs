@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Contract Enforcement Litigation Data from District Courts
 date: "2020-02-21"
-lastmod: "2020-02-26"
+lastmod: "2020-02-27"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -40,8 +40,10 @@ menu:
 |Language of the dataset                                           |English                                                                                                                                                                                                                                                                                                                                                                      |
 |Does the dataset have PII's (Personally Identifiable Information) |Yes                                                                                                                                                                                                                                                                                                                                                                          |
 |Level of the dataset                                              |Case                                                                                                                                                                                                                                                                                                                                                                         |
-|Google Drive URL                                                  |https://drive.google.com/open?id=1Je4vmnnyw3Ve0KMwVbQAl6qnZR38GWZO                                                                                                                                                                                                                                                                                                           |
+|Google Drive Dataset URL                                          |https://drive.google.com/open?id=1Je4vmnnyw3Ve0KMwVbQAl6qnZR38GWZO                                                                                                                                                                                                                                                                                                           |
+|Google Drive Data Dictionary URL                                  |https://drive.google.com/open?id=1aP6MTTwirnz5y0BIQ_JsoBNtTCrgDC3HqAh_SVP_6yE                                                                                                                                                                                                                                                                                                |
 |Dataset issue report                                              |https://github.com/justicehub-in/justice-hub-docs/issues/1                                                                                                                                                                                                                                                                                                                   |
+|Data Issue Status                                                 |Open                                                                                                                                                                                                                                                                                                                                                                         |
 
 
 

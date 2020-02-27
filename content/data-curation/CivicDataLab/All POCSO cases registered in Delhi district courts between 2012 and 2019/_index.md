@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: All POCSO cases registered in Delhi district courts between 2012 and 2019
 date: "2020-02-19"
-lastmod: "2020-02-26"
+lastmod: "2020-02-27"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -40,8 +40,10 @@ menu:
 |Language of the dataset                                           |English                                                                                                                                                                                                                                                                                                                                                                                       |
 |Does the dataset have PII's (Personally Identifiable Information) |Yes                                                                                                                                                                                                                                                                                                                                                                                           |
 |Level of the dataset                                              |The data is available at a case by case level                                                                                                                                                                                                                                                                                                                                                 |
-|Google Drive URL                                                  |NA                                                                                                                                                                                                                                                                                                                                                                                            |
+|Google Drive Dataset URL                                          |NA                                                                                                                                                                                                                                                                                                                                                                                            |
+|Google Drive Data Dictionary URL                                  |NA                                                                                                                                                                                                                                                                                                                                                                                            |
 |Dataset issue report                                              |NA                                                                                                                                                                                                                                                                                                                                                                                            |
+|Data Issue Status                                                 |Open                                                                                                                                                                                                                                                                                                                                                                                          |
 ### Research Links
 * https://haqcrc.org/publication/implementation-pocso-act/
 * http://www.civicdatalab.in/POCSO_case_law_analysis/pocso_judgements_analyser/pocso_analysis_nb.html

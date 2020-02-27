@@ -10,7 +10,7 @@ form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqa
 base_dir <- here::here("content/data-curation")
 
 # Column Details
-dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Google Drive URL", "Dataset issue report", "Data Issue Status")
+dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Google Drive Dataset URL", "Google Drive Data Dictionary URL"  ,"Dataset issue report", "Data Issue Status")
 research_links <- "Please share a few research links (if available) where the dataset was used (Use commas to enter multiple links)"
 maintainer_details <- "Maintainer Email"
 tags <- "Keywords"
@@ -19,8 +19,8 @@ comments <- "Any other comments"
 cdl_facilitator <- "CivicDataLab Facilitator"
 
 
-# This is a public sheet, hence OAuth is not required
-sheets_deauth()
+# # This is a public sheet, hence OAuth is not required
+# sheets_deauth()
 
 # Read all form responses
 form_responses <- sheets_read(ss = form_responses_link)
@@ -30,14 +30,16 @@ form_responses$org_alias <-
 form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
 
 # org_alias <- 'nipfp'
-create_data_report <- function(org_alias){
-  org_details <- form_responses[form_responses$org_alias == org_alias,]
-  for(i in 1:nrow(org_details)){
-    org_dataset_title <- org_details[,'Title'][[i]]
-    org_dataset_description <- org_details[,'Description'][[i]]
+create_data_report <- function(org_alias) {
+  org_details <-
+    form_responses[form_responses$org_alias == org_alias, ]
+  for (i in 1:nrow(org_details)) {
+    org_dataset_title <- org_details[, 'Title'][[i]]
+    org_dataset_description <- org_details[, 'Description'][[i]]
     
     # Data Report path[s]
-    org_directory <- glue::glue("{base_dir}/{org_alias}/{org_dataset_title}")
+    org_directory <-
+      glue::glue("{base_dir}/{org_alias}/{org_dataset_title}")
     
     # Create directories to host the data report
     fs::dir_create(org_directory)
@@ -48,15 +50,18 @@ create_data_report <- function(org_alias){
     create_index_file <- fs::file_create(path = datareport_path)
     
     # Create YAML meta-data
-    menu_title <- as.Date(org_details$Timestamp[[i]]) %>% stringr::str_replace_all('-','_') %>% glue::glue("_{i}")  
-    menu_title <- paste0(org_alias,'_',menu_title)
+    menu_title <-
+      as.Date(org_details$Timestamp[[i]]) %>% stringr::str_replace_all('-', '_') %>% glue::glue("_{i}")
+    menu_title <- paste0(org_alias, '_', menu_title)
     
     # Process Keywords
-    all_tags <- org_details$Keywords[[i]] %>% stringr::str_split(pattern = ",") %>% unlist() %>%  stringr::str_trim()
-    all_tags <- paste0("[",paste0(all_tags,collapse = ','),"]")
+    all_tags <-
+      org_details$Keywords[[i]] %>% stringr::str_split(pattern = ",") %>% unlist() %>%  stringr::str_trim()
+    all_tags <- paste0("[", paste0(all_tags, collapse = ','), "]")
     
     # Write YAML metadata
-    yaml_metadata <- glue::glue('
+    yaml_metadata <- glue::glue(
+      '
 linktitle: {org_dataset_title}
 summary: {org_dataset_description}
 weight: 1
@@ -77,7 +82,8 @@ menu:
   {menu_title}:
     name: Overview
     weight: 1
-') 
+'
+    )
     
     # File Contents:
     # * Data details
@@ -87,11 +93,13 @@ menu:
     # * Comments
     
     #Add data report as table to the file
-    data_details <- t(org_details[,dataset_columns]) %>% data.frame()
+    data_details <-
+      t(org_details[, dataset_columns]) %>% data.frame()
     data_details <- cbind(row.names(data_details), data_details)
-    names(data_details) <- c('Variable','Description')
+    names(data_details) <- c('Variable', 'Description')
     
-    md_data_table <- data_details %>% knitr::kable(row.names = FALSE)
+    md_data_table <-
+      data_details %>% knitr::kable(row.names = FALSE, format = 'markdown')
     data_details_md_heading <- "### Dateset details"
     
     #  Add Tags
@@ -99,30 +107,33 @@ menu:
     tags_shortcode <- "{{< list_tags >}}"
     
     # Add links to research/publications
-    if(!is.na(org_details[,research_links])[[i]]){
+    if (!is.na(org_details[, research_links])[[i]]) {
       research_heading <- '### Research Links'
-      research_content <- stringr::str_split(org_details[,research_links][[i]], pattern = ',') %>% unlist() %>% stringr::str_trim()
-      research_content <- paste0("* ",research_content)
+      research_content <-
+        stringr::str_split(org_details[, research_links][[i]], pattern = ',') %>% unlist() %>% stringr::str_trim()
+      research_content <- paste0("* ", research_content)
     } else {
-      research_heading <- ''  
+      research_heading <- ''
       research_content <- ''
     }
     
-        
+    
     # Add CDL Facilitator details
     
     facilitator_heading <- "### CDL Facilitator"
-    facilitator_alias <- org_details[,cdl_facilitator][[i]] %>% stringr::str_split_fixed(pattern = ' ',n = 2) %>% stringr::str_to_lower() %>% stringr::str_trim()
+    facilitator_alias <-
+      org_details[, cdl_facilitator][[i]] %>% stringr::str_split_fixed(pattern = ' ', n = 2) %>% stringr::str_to_lower() %>% stringr::str_trim()
     facilitator_alias <- facilitator_alias[[1]]
-    facilitator_content <- paste0('{{% mention "{',facilitator_alias,'}" %}}')
+    facilitator_content <-
+      paste0('{{% mention "{', facilitator_alias, '}" %}}')
     
     # Add comments
-    if(!is.na(org_details[,comments][[i]]))
+    if (!is.na(org_details[, comments][[i]]))
     {
       comment_heading <- "### Note"
       comment_box <- paste0("{{% alert note %}}",
-                            org_details[,comments][[i]],
-                            "{{% /alert %}}") 
+                            org_details[, comments][[i]],
+                            "{{% /alert %}}")
     } else {
       comment_heading <- ""
       comment_box <- ""
@@ -149,55 +160,6 @@ menu:
       datareport_path
     )
     
-    # Generate a md data dictionary if file present
-    all_files <- dir(org_directory)
-    if('data_dictionary.csv' %in% all_files){
-      datadictionary_path <- glue::glue("{org_directory}/data_dictionary.md")
-      
-      # Create data_dictionary.md
-      create_data_dictionary_file <- fs::file_create(path = datadictionary_path)
-      
-      data_dictionary_metadata <- glue::glue('
-title: Data Dictionary
-linktitle: Data Dictionary
-toc: false
-type: docs
-date: "{as.Date(org_details$Timestamp)}"
-draft: false
-menu:
-  {menu_title}:
-    weight: 2
-# Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 1
-')
-      
-      data_dictionary_file <-
-        readr::read_csv(
-          glue('{org_directory}/data_dictionary.csv'),
-          col_names = TRUE,
-          col_types = cols(
-            `Data Type` = col_character(),
-            Description = col_character(),
-            Variable = col_character()
-          )
-        )
-      
-      
-      md_data_dictionary_table <- data_dictionary_file %>% kable()
-        
-        
-        
-      # Add contents to the data dictionary
-      xfun::write_utf8(
-        c(
-          '---',
-          data_dictionary_metadata,
-          '---',
-          md_data_dictionary_table
-        ),
-        datadictionary_path
-      )
-    }
   }
 }
 

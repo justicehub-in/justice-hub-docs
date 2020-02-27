@@ -14,7 +14,6 @@ type: docs
 weight: 1
 ---
 
-
 The data curation process starts once a partner is on-boarded as a Data Contributor. Our plan is to work with the data contributors and prepare necessary frameworks and tools to assist with sharing data on the Hub. 
 
 ### The steps in a data curation cycle:
