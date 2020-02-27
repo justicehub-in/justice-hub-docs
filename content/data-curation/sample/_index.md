@@ -9,7 +9,7 @@ toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 menu:
   onboarding:
-    name: Veratech
+    name: test
 ---
 
 testing
