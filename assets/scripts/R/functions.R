@@ -275,7 +275,7 @@ type: post
   master_report_df$Timestamp <- as.Date(master_report_df$Timestamp)
   names(master_report_df)[which(names(master_report_df) == 'Timestamp')] <- 'Date added'
   master_report_df$title_with_link <- lapply(master_report_df$Title, title_to_link) %>% unlist()
-  
+  master_report_df$title_with_link <- glue("../data-curation/{str_to_lower(master_report_df$org_alias)}/{master_report_df$title_with_link}")
   master_report_df$`Organisation Name` <- text_spec(master_report_df$`Organisation Name`, link = glue('../data-curation/{master_report_df$org_alias}'))
   master_report_df$Title <- text_spec(x = master_report_df$Title, link = master_report_df$title_with_link)
   
@@ -317,6 +317,6 @@ update_website <- function(){
   lapply(all_orgs, create_partner_report)
   lapply(all_orgs, create_data_report)
   all_data_report()
-  blogdown::build_site(method = 'html')
+  # blogdown::build_site(method = 'html')
 }
 

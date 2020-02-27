@@ -27,4 +27,4 @@ The data curation process starts once a partner is on-boarded as a Data Contribu
 
 ### Links
 
-* :memo: - Check the [**Data Reports**](data_report) section to access reports for all data-contributors
+* :memo: - Check the [**Data Reports**](../data-reports) section to access reports for all data-contributors
