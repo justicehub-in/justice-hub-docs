@@ -1,5 +1,5 @@
 ---
-title: Data reports | Vidhi
+title: Data reports | NIPFP
 layout: docs  # Do not modify.
 
 # Optional header image (relative to `static/img/` folder).
