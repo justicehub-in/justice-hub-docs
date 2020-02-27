@@ -43,7 +43,6 @@ names(master_report_df)[which(names(master_report_df) == 'Timestamp')] <- 'Date 
 
 ```{r table output, echo=FALSE, message=FALSE, warning=FALSE}
 report_table <- master_report_df %>% knitr::kable()
+report_table
 ```
 
-
-`r report_table `
