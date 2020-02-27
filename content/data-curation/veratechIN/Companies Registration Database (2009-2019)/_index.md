@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Companies Registration Database (2009-2019)
 date: "2020-02-27"
-lastmod: "2020-02-27"
+lastmod: "2020-02-28"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.

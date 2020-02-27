@@ -5,7 +5,7 @@ lastmod: "2020-02-19T00:00:00Z"
 linktitle: Data curation resources
 menu:
   onboarding:
-    name: Data Curation
+    name: Process
     weight: 10
 summary: Docs and Processes to curate data for the Justice Hub
 title: Curating Datasets from Data Contributors
