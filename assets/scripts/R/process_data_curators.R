@@ -13,7 +13,7 @@ base_dir <- here::here("content/data-curation")
 dataset_columns <-
   c("Organisation Name",
     "Title",
-    "Google Drive Dataset URL",
+    "Dataset URL",
     "Dataset issue report",
     "Data Issue Status"
   )
@@ -65,11 +65,11 @@ menu:
 
   title_with_link <- str_replace_all(org_details$Title, pattern = ' ',replacement = '-') %>% str_to_lower() %>% str_trim(side = 'both')
   org_details$Title <- text_spec(org_details$Title, link = glue('{title_with_link}'))
-  org_details$`Google Drive Dataset URL` <-
+  org_details$`Dataset URL` <-
     ifelse(
-      !is.na(org_details$`Google Drive Dataset URL`),
-      text_spec(org_details$`Google Drive Dataset URL`, link = org_details$`Google Drive Dataset URL`),
-      org_details$`Google Drive Dataset URL`
+      !is.na(org_details$`Dataset URL`),
+      text_spec(org_details$`Dataset URL`, link = org_details$`Dataset URL`),
+      org_details$`Dataset URL`
     )
   org_details$`Dataset issue report` <-
     ifelse(
@@ -83,7 +83,7 @@ menu:
   
   org_details_table <-
     org_details %>% select("Title",
-                           "Google Drive Dataset URL",
+                           "Dataset URL",
                            "Dataset issue report",
                            "Data Issue Status") %>% kable(escape = FALSE) %>%   kable_styling(bootstrap_options = c("condensed", "responsive"),
                                                                                           fixed_thead = T)
