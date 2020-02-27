@@ -59,7 +59,7 @@
 
 [[main]]
   name = "Resources"
-  url = "data-contribution-handbook/dc_resources"
+  url = "resources"
   weight = 40
 
 [[main]]
