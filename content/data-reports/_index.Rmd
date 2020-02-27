@@ -1,0 +1,49 @@
+---
+title: "Data Reports"
+draft: no
+date: '2020-02-27T00:00:00Z'
+linktitle: Justice Hub | Data Reports
+summary: Data curation status for the Justice Hub
+  legal datasets to be released in the first phase of the project
+lastmod: '2020-02-27T00:00:00Z'
+type: post
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r preparing data, message=FALSE, warning=FALSE, include=FALSE}
+library(googlesheets4)
+library(dplyr)
+library(knitr)
+library(glue)
+# Read google form to access data reports
+form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqae-7yhuZqt-ebAz9skD9hEab10ME/edit?usp=sharing'
+
+# This is a public sheet, hence OAuth is not required
+sheets_deauth()
+
+# Read all form responses
+form_responses <- sheets_read(ss = form_responses_link)
+
+form_responses$org_alias <-
+  form_responses$`Organisation Name` %>% unique() %>% stringr::str_to_lower() %>% stringr::str_trim()
+form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
+
+# org_alias <- 'nipfp'
+
+# Creating a data report dataframe
+
+cols_to_consider <- c("Organisation Name", "Timestamp", "Title", "Google Drive URL", "Dataset issue report", "Data Issue Status")
+master_report_df <- form_responses[,cols_to_consider]
+master_report_df$Timestamp <- as.Date(master_report_df$Timestamp)
+names(master_report_df)[which(names(master_report_df) == 'Timestamp')] <- 'Date added'
+```
+
+```{r table output, echo=FALSE, message=FALSE, warning=FALSE}
+report_table <- master_report_df %>% knitr::kable()
+```
+
+
+`r report_table `

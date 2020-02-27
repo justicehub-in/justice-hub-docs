@@ -10,7 +10,7 @@ form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqa
 base_dir <- here::here("content/data-curation")
 
 # Column Details
-dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Google Drive URL", "Dataset issue report")
+dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Google Drive URL", "Dataset issue report", "Data Issue Status")
 research_links <- "Please share a few research links (if available) where the dataset was used (Use commas to enter multiple links)"
 maintainer_details <- "Maintainer Email"
 tags <- "Keywords"
@@ -29,7 +29,7 @@ form_responses$org_alias <-
   form_responses$`Organisation Name` %>% unique() %>% stringr::str_to_lower() %>% stringr::str_trim()
 form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
 
-org_alias <- 'nipfp'
+# org_alias <- 'nipfp'
 create_data_report <- function(org_alias){
   org_details <- form_responses[form_responses$org_alias == org_alias,]
   for(i in 1:nrow(org_details)){
