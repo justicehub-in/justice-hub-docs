@@ -17,7 +17,9 @@ knitr::opts_chunk$set(echo = TRUE)
 library(googlesheets4)
 library(dplyr)
 library(knitr)
+library(kableExtra)
 library(glue)
+library(stringr)
 # Read google form to access data reports
 form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqae-7yhuZqt-ebAz9skD9hEab10ME/edit?usp=sharing'
 
@@ -35,14 +37,31 @@ form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
 
 # Creating a data report dataframe
 
-cols_to_consider <- c("Organisation Name", "Timestamp", "Title", "Google Drive Dataset URL", "Dataset issue report", "Data Issue Status")
+cols_to_consider <- c("Organisation Name", "org_alias","Timestamp", "Title", "Google Drive Dataset URL", "Dataset issue report", "Data Issue Status")
 master_report_df <- form_responses[,cols_to_consider]
 master_report_df$Timestamp <- as.Date(master_report_df$Timestamp)
 names(master_report_df)[which(names(master_report_df) == 'Timestamp')] <- 'Date added'
 ```
 
 ```{r table output, echo=FALSE, message=FALSE, warning=FALSE}
-report_table <- master_report_df %>% knitr::kable()
+
+master_report_df$title_with_link <-
+  ifelse(
+    !is.na(master_report_df$Title),
+    master_report_df$Title %>%  str_replace_all(pattern = '[\\(\\)\\-]',replacement = ' ') %>% str_trim() %>% str_replace_all(pattern = '[:space:]+', replacement = '-') %>% str_trim(side = 'both'),
+    master_report_df$Title
+  )
+
+master_report_df$`Organisation Name` <- text_spec(master_report_df$`Organisation Name`, link = glue('../data-curation/{master_report_df$org_alias}'))
+
+master_report_df$title_with_link <- glue('../data-curation/{master_report_df$org_alias}/{master_report_df$title_with_link}') %>% str_to_lower()
+  
+master_report_df$Title <- text_spec(x = master_report_df$Title, link = master_report_df$title_with_link)
+
+master_report_df$org_alias <- NULL
+master_report_df$title_with_link <- NULL
+
+report_table <- master_report_df %>% knitr::kable(escape = FALSE)
 report_table
 ```
 
