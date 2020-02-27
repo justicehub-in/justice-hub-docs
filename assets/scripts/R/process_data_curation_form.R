@@ -10,7 +10,7 @@ form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqa
 base_dir <- here::here("content/data-curation")
 
 # Column Details
-dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Google Drive Dataset URL", "Google Drive Data Dictionary URL"  ,"Dataset issue report", "Data Issue Status")
+dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Google Drive Dataset URL", "Google Drive Data Dictionary URL"  ,"Dataset issue report", "Data Issue Status","Dataset Identifier")
 research_links <- "Please share a few research links (if available) where the dataset was used (Use commas to enter multiple links)"
 maintainer_details <- "Maintainer Email"
 tags <- "Keywords"
@@ -36,6 +36,8 @@ create_data_report <- function(org_alias) {
   for (i in 1:nrow(org_details)) {
     org_dataset_title <- org_details[, 'Title'][[i]]
     org_dataset_description <- org_details[, 'Description'][[i]]
+    dataset_identifier <- org_details[, 'Dataset Identifier'][[i]]
+    org_name <- org_details[, 'Organisation Name'][[i]]
     
     # Data Report path[s]
     org_directory <-
@@ -50,9 +52,9 @@ create_data_report <- function(org_alias) {
     create_index_file <- fs::file_create(path = datareport_path)
     
     # Create YAML meta-data
-    menu_title <-
-      as.Date(org_details$Timestamp[[i]]) %>% stringr::str_replace_all('-', '_') %>% glue::glue("_{i}")
-    menu_title <- paste0(org_alias, '_', menu_title)
+    # menu_title <-
+    #   as.Date(org_details$Timestamp[[i]]) %>% stringr::str_replace_all('-', '_') %>% glue::glue("_{i}")
+    # menu_title <- paste0(org_alias, '_', menu_title)
     
     # Process Keywords
     all_tags <-
@@ -79,9 +81,10 @@ tags: {all_tags}
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 menu:
-  {menu_title}:
-    name: Overview
+  onboarding:
+    name: {dataset_identifier}
     weight: 1
+    parent: {org_name}
 '
     )
     
