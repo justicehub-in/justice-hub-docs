@@ -2,8 +2,8 @@
 linktitle: Data reports | CivicDataLab
 summary: List of curated datasets
 title: CivicDataLab
-date: "2020-02-27"
-lastmod: "2020-02-27"
+date: "2020-03-02"
+lastmod: "2020-03-02"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -25,7 +25,7 @@ menu:
    <td style="text-align:left;"> <a href="All-POCSO-cases-registered-in-Delhi-district-courts-between-2012-and-2019" style="     ">All POCSO cases registered in Delhi district courts between 2012 and 2019</a> </td>
    <td style="text-align:left;"> NA </td>
    <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Open </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
 </tbody>
 </table>

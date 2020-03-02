@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Companies Registration Database (2009-2019)
 date: "2020-02-27"
-lastmod: "2020-02-28"
+lastmod: "2020-03-02"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -26,8 +26,8 @@ menu:
 |:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |Title                                                             |Companies Registration Database (2009-2019)                                                                                                                                    |
 |Description                                                       |Registration details of companies and directors in the last 10 years. The dataset is sourced from publically available resources at the Ministry of Corporate Affairs website. |
-|Keywords                                                          |mca, companies registration, director registration, registration, companies                                                                                                    |
 |Data source details                                               |Ministry of Corporate Affairs                                                                                                                                                  |
+|Dataset License                                                   |NA                                                                                                                                                                             |
 |Total files                                                       |4                                                                                                                                                                              |
 |Date of data collection/publication                               |NA                                                                                                                                                                             |
 |Do we maintain a data dictionary                                  |Yes                                                                                                                                                                            |
@@ -43,13 +43,13 @@ menu:
 |Level of the dataset                                              |company, director                                                                                                                                                              |
 |Dataset URL                                                       |https://drive.google.com/open?id=19FBpg4rSM_Tc8NsZbHG_DiR5hdfLAOiC                                                                                                             |
 |Data Dictionary URL                                               |https://docs.google.com/spreadsheets/d/1sdbGZgr-pHEGLiDKbjQMQNUXxpIvxp0VHew6bLPErOk/edit?usp=sharing                                                                           |
-|Dataset issue report                                              |https://github.com/justicehub-in/justice-hub-docs/issues/5                                                                                                                     |
+|Dataset issue report                                              |https://github.com/justicehub-in/justice-hub-docs/issues/6                                                                                                                     |
 |Data Issue Status                                                 |Open                                                                                                                                                                           |
 |Dataset Identifier                                                |Companies Registration 2009 - 2019                                                                                                                                             |
 
 
 ### Note
-{{% alert note %}}Data is available as a SQL DB{{% /alert %}}
+{{% alert note %}}Data available as a SQL dump. Further data processing might be required to anonymise PII's{{% /alert %}}
 ### CDL Facilitator
 {{% mention "{apoorv}" %}}
 ### Keywords

@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-02-27"
+date: "2020-03-02"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-02-28"
+lastmod: "2020-03-02"
 type: post
 ---
 <table>
@@ -26,14 +26,14 @@ type: post
    <td style="text-align:left;"> <a href="../data-curation/civicdatalab/All-POCSO-cases-registered-in-Delhi-district-courts-between-2012-and-2019" style="     " >All POCSO cases registered in Delhi district courts between 2012 and 2019</a> </td>
    <td style="text-align:left;"> NA </td>
    <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> Open </td>
+   <td style="text-align:left;"> NA </td>
   </tr>
   <tr>
    <td style="text-align:left;"> <a href="../data-curation/nipfp" style="     " >NIPFP</a> </td>
    <td style="text-align:left;"> 2020-02-21 </td>
    <td style="text-align:left;"> <a href="../data-curation/nipfp/Contract-Enforcement-Litigation-Data-from-District-Courts" style="     " >Contract Enforcement Litigation Data from District Courts</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Je4vmnnyw3Ve0KMwVbQAl6qnZR38GWZO" style="     " >https://drive.google.com/open?id=1Je4vmnnyw3Ve0KMwVbQAl6qnZR38GWZO</a> </td>
-   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/1" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/1</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/7" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/7</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
   <tr>
@@ -41,7 +41,7 @@ type: post
    <td style="text-align:left;"> 2020-02-27 </td>
    <td style="text-align:left;"> <a href="../data-curation/veratechin/Companies-Registration-Database-2009-2019" style="     " >Companies Registration Database (2009-2019)</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=19FBpg4rSM_Tc8NsZbHG_DiR5hdfLAOiC" style="     " >https://drive.google.com/open?id=19FBpg4rSM_Tc8NsZbHG_DiR5hdfLAOiC</a> </td>
-   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/5" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/5</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/6" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/6</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>

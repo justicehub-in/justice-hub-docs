@@ -15,7 +15,7 @@ title_to_link <- function(title){
 
 # Read all form responses
 read_form_responses <- function(){
-  form_responses_link <- 'https://docs.google.com/spreadsheets/d/1OX1YcFadTx3IpUqae-7yhuZqt-ebAz9skD9hEab10ME/edit?usp=sharing'
+  form_responses_link <- 'https://docs.google.com/spreadsheets/d/1GSa_hZkvdsd3YsvGUiiks08hVLRkrKWx4yb8MDI-2VU/edit?usp=sharing'
   form_responses <- sheets_read(ss = form_responses_link)
   form_responses$org_alias <-
     form_responses$`Organisation Name` %>% unique() %>% stringr::str_to_lower() %>% stringr::str_trim()
@@ -26,7 +26,31 @@ read_form_responses <- function(){
 # Create data reports for every dataset
 create_data_report <- function(org_alias) {
   # Column Details
-  dataset_columns <- c("Title", "Description", "Keywords", "Data source details", "Total files", "Date of data collection/publication", "Do we maintain a data dictionary", "Is the data available in machine readable formats", "How was the data collected", "Geographical coverage", "Is raw data available", "Data timeline (From Year - To Year)", "Is the data still updated", "What is the data update frequency", "Language of the dataset", "Does the dataset have PII's (Personally Identifiable Information)", "Level of the dataset", "Dataset URL", "Data Dictionary URL"  ,"Dataset issue report", "Data Issue Status","Dataset Identifier")
+  dataset_columns <-
+    c(
+      "Title",
+      "Description",
+      "Data source details",
+      "Dataset License",
+      "Total files",
+      "Date of data collection/publication",
+      "Do we maintain a data dictionary",
+      "Is the data available in machine readable formats",
+      "How was the data collected",
+      "Geographical coverage",
+      "Is raw data available",
+      "Data timeline (From Year - To Year)",
+      "Is the data still updated",
+      "What is the data update frequency",
+      "Language of the dataset",
+      "Does the dataset have PII's (Personally Identifiable Information)",
+      "Level of the dataset",
+      "Dataset URL",
+      "Data Dictionary URL",
+      "Dataset issue report",
+      "Data Issue Status",
+      "Dataset Identifier"
+    )
   research_links <- "Please share a few research links (if available) where the dataset was used (Use commas to enter multiple links)"
   maintainer_details <- "Maintainer Email"
   tags <- "Keywords"

@@ -2,8 +2,8 @@
 linktitle: Data reports | NIPFP
 summary: List of curated datasets
 title: NIPFP
-date: "2020-02-27"
-lastmod: "2020-02-28"
+date: "2020-03-02"
+lastmod: "2020-03-02"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -24,7 +24,7 @@ menu:
   <tr>
    <td style="text-align:left;"> <a href="Contract-Enforcement-Litigation-Data-from-District-Courts" style="     ">Contract Enforcement Litigation Data from District Courts</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Je4vmnnyw3Ve0KMwVbQAl6qnZR38GWZO" style="     ">https://drive.google.com/open?id=1Je4vmnnyw3Ve0KMwVbQAl6qnZR38GWZO</a> </td>
-   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/1" style="     ">https://github.com/justicehub-in/justice-hub-docs/issues/1</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/7" style="     ">https://github.com/justicehub-in/justice-hub-docs/issues/7</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>
