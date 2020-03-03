@@ -15,7 +15,7 @@ type: post
 library(yaml)
 library(tidyverse)
 
-partners_curated <- yaml::read_yaml("../../static/partner-curation.yaml", fileEncoding = 'UTF-8') %>% dplyr::bind_rows() %>% knitr::kable()
+partners_curated <- yaml::read_yaml("../../static/partner-curation.yaml", fileEncoding = 'UTF-8') %>% dplyr::bind_rows() %>% knitr::kable(table.attr = "id=\"partnercuration\"", format = "html")
 
 partners_curated
 ```
