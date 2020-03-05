@@ -11,7 +11,7 @@
   list-style: none;
   margin-top: 1em;
   line-height: 1.5;
-  border-color: var(--text-lighter);
+  border-color: #eaecee;
   border-width: 1px;
   border-style: solid;
   padding: 0.5em 1em;
@@ -21,8 +21,8 @@
 
 .awesome-link-group-tag {
   /* border: 1px solid var(--dark-blue); */
-  border: 1px solid var(--green);
-  background: var(--green-o10);
+  border: 1px solid #55ebbc;
+  background: #55ebbc0;
   padding: 0.05em 0.25em;
   border-radius: 3px;
   display: inline-block;
@@ -32,8 +32,8 @@
   margin-bottom: 5px;
 }
 
-.awesome-link-description {
-  color: var(--text-med);
+.awesome-link-city {
+  color: #6d7e8a;
   margin-top: 0;
   line-height: 1;
   margin-bottom: 0.25em;

@@ -159,7 +159,8 @@ link_authors = true
 
 # Load JS plugins
 #   E.g. To load `/assets/js/custom.js`, set `plugins_js = ["custom"]`.
-plugins_js  = ["customdt"]
+plugins_css = ["table", "custom"]
+plugins_js  = []
 
 # Available address formats.
 [address_formats]
@@ -251,10 +252,3 @@ plugins_js  = ["customdt"]
   engine = 0
   api_key = ""
   zoom = 15
-
-############################
-## Marketing
-############################
-[marketing]
-  google_analytics = "UA-158607256-1"
-  google_tag_manager = ""
