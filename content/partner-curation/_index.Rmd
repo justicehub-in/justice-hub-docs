@@ -1,21 +1,100 @@
 ---
-title: "List of potential data contributors"
+title: "Justice Hub | Data Contributors"
 draft: no
 date: '2020-02-16T00:00:00Z'
 linktitle: Curating partners for building the Justice Hub
-summary: Identifying partners to share data and help us curate knowledge around important
-  legal datasets to be released in the first phase of the project
+summary: List of data contributors at each stage of the data contribution cycle
 lastmod: '2020-02-16T00:00:00Z'
 type: post
 ---
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE, warning=FALSE, echo=FALSE)
+options(htmltools.dir.version = FALSE)
+```
 
 
-```{r partner-list, echo=FALSE, message=FALSE, warning=FALSE}
+
+```{r partner-list}
 library(yaml)
 library(tidyverse)
+library(glue)
 
-partners_curated <- yaml::read_yaml("../../static/partner-curation.yaml", fileEncoding = 'UTF-8') %>% dplyr::bind_rows() %>% knitr::kable()
+partners_curated <- yaml::read_yaml("../../static/partner-curation.yaml", fileEncoding = 'UTF-8') %>% dplyr::bind_rows()
 
-partners_curated
+url_pattern <- "((https?|ftp|file)://)?([\\w\\d.-]+)\\.([a-zA-Z.]{2,6})([-/.a-zA-Z0-9]+)*/?"
+
+titleCase <- function(x) {
+	substr(x, 1, 1) <- toupper(substr(x, 1, 1))
+	x
+}
+
+names(partners_curated)[] <- c('title','facilitator','url','city','stage')
+partners_curated <- partners_curated %>% select(url, stage, title, city)
 ```
+
+
+```{r}
+partners_curated %>%
+	select(url, stage, title, city) %>%
+	# slice(1:5) %>%
+	mutate(
+		url_parts = map(url, str_match, pattern = url_pattern),
+		url_slug = map_chr(url_parts, ~ glue("{.x[4]}.{.x[5]}")),
+		url = map2_chr(url, url_slug, ~ htmltools::tags$a(href = .x, .y) %>% format()),
+		group = trimws(stage),
+		group_first = map_chr(group, `[`, 1),
+		group_first = titleCase(group_first),
+		group = map_chr(group, ~ map(.x, ~ {
+			htmltools::tags$span(class = "awesome-link-group-tag", .x) %>% format()
+		}) %>% paste(collapse = " "))
+	) %>%
+	select(group_first, group, title, city, url) %>%
+	group_nest(group_first) %>%
+	purrr::pmap(function(group_first, data) {
+		htmltools::tagList(
+			# htmltools::tags$h3(group_first),
+			purrr::pmap(data, function(group, title, city, url) {
+				htmltools::tags$li(
+					class = "awesome-link",
+					htmltools::tags$div(
+						class= "awesome-link-groups",
+						htmltools::HTML(group)
+					),
+					htmltools::tags$p(
+					  htmltools::tags$span(class = "awesome-link-title", title),
+					  htmltools::tags$span(
+					    class = "awesome-link-url",
+					    htmltools::HTML(glue("({url})"))
+					  )
+					),
+					if (!is.na(city)) htmltools::tags$div(
+						class = "awesome-link-city",
+						city
+					)
+				)
+			}) #%>%
+				#htmltools::tags$ul(class = "awesome-links", .)
+		)
+	}) %>%
+  htmltools::tags$ul(class = "list awesome-links", .) %>% 
+  htmltools::div(
+    id = "awesome-links-list",
+    htmltools::tags$label(`for` = "search", "Filter the list"),
+    htmltools::tags$input(class = "search", id = "search"),
+    .
+  )
+```
+
+<link href="/css/awesome-links.css" rel="stylesheet" type="text/css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/list.js/1.5.0/list.min.js"></script>
+
+```{js}
+var options = {
+    valueNames: [ 'awesome-link-title', 'awesome-link-group-tag', 'awesome-link-url', 'awesome-link-city' ]
+};
+
+var awesomeList = new List('awesome-links-list', options);
+
+```
+
