@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-03-02"
+date: "2020-03-08"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-03-02"
+lastmod: "2020-03-08"
 type: post
 ---
 <table>
@@ -42,6 +42,14 @@ type: post
    <td style="text-align:left;"> <a href="../data-curation/veratechin/Companies-Registration-Database-2009-2019" style="     " >Companies Registration Database (2009-2019)</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=19FBpg4rSM_Tc8NsZbHG_DiR5hdfLAOiC" style="     " >https://drive.google.com/open?id=19FBpg4rSM_Tc8NsZbHG_DiR5hdfLAOiC</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/6" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/6</a> </td>
+   <td style="text-align:left;"> Open </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <a href="../data-curation/project39a" style="     " >Project 39A</a> </td>
+   <td style="text-align:left;"> 2020-03-07 </td>
+   <td style="text-align:left;"> <a href="../data-curation/project39a/Death-Penalty-in-India:-Annual-Statistics-2019" style="     " >Death Penalty in India: Annual Statistics 2019</a> </td>
+   <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_" style="     " >https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/14" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/14</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>
