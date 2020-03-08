@@ -62,6 +62,7 @@ create_data_report <- function(org_alias) {
     form_responses[form_responses$org_alias == org_alias, ]
   for (i in 1:nrow(org_details)) {
     org_dataset_title <- org_details[, 'Title'][[i]]
+    org_dataset_title <- stringr::str_replace_all(org_dataset_title, pattern="[[:punct:]]", replacement = '')
     org_dataset_description <- org_details[, 'Description'][[i]]
     dataset_identifier <- org_details[, 'Dataset Identifier'][[i]]
     org_name <- org_details[, 'Organisation Name'][[i]]
