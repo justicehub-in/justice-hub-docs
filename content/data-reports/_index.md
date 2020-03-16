@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-03-16"
+date: "2020-03-17"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-03-16"
+lastmod: "2020-03-17"
 type: post
 ---
 <table>
@@ -58,6 +58,14 @@ type: post
    <td style="text-align:left;"> <a href="../data-curation/studionilima/Correctional-Fascilities-in-Assam-2018" style="     " >Correctional Fascilities in Assam 2018</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/drive/u/1/folders/10y0NkbQRHqoxnqaGh7OVvaWA-Scnw1gg" style="     " >https://drive.google.com/drive/u/1/folders/10y0NkbQRHqoxnqaGh7OVvaWA-Scnw1gg</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/16" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/16</a> </td>
+   <td style="text-align:left;"> Open </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <a href="../data-curation/tatatrusts" style="     " >Tata Trusts</a> </td>
+   <td style="text-align:left;"> 2020-03-17 </td>
+   <td style="text-align:left;"> <a href="../data-curation/tatatrusts/India-Justice-Report" style="     " >India Justice Report</a> </td>
+   <td style="text-align:left;"> <a href="https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU" style="     " >https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/17" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/17</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>
