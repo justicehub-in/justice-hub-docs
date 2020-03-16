@@ -43,9 +43,10 @@ assignees: ''
 ### Comments/Next Steps:
 
 - Variables with personally identifiable information (PII's) (As per our data sharing policy, we are not uploading any datasets with sensitive information either about communities (CII's) or individuals):
+
 | Worksheet/File                  | Variable       |
 |----------------------------|----------------|
-|  |  |
+| sample-file | sample-col-name |
 
 :heavy_exclamation_mark: Important:
 - Please share a link to the data dictionary (This is a CSV file which contains information about the columns present in all files under a dataset). You can also download and use [this]() template, to create a basic data dictionary for this dataset)
