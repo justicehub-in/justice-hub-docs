@@ -1,7 +1,7 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-03-16"
+date: "2020-03-17"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
