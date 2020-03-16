@@ -52,5 +52,13 @@ type: post
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/14" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/14</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
+  <tr>
+   <td style="text-align:left;"> <a href="../data-curation/studionilima" style="     " >Studio Nilima</a> </td>
+   <td style="text-align:left;"> 2020-03-16 </td>
+   <td style="text-align:left;"> <a href="../data-curation/studionilima/Correctional-Fascilities-in-Assam-2018" style="     " >Correctional Fascilities in Assam 2018</a> </td>
+   <td style="text-align:left;"> <a href="https://drive.google.com/drive/u/1/folders/10y0NkbQRHqoxnqaGh7OVvaWA-Scnw1gg" style="     " >https://drive.google.com/drive/u/1/folders/10y0NkbQRHqoxnqaGh7OVvaWA-Scnw1gg</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/16" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/16</a> </td>
+   <td style="text-align:left;"> Open </td>
+  </tr>
 </tbody>
 </table>
