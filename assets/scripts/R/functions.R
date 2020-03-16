@@ -98,7 +98,7 @@ weight: 1
 # Page metadata.
 title: {org_dataset_title}
 date: "{as.Date(org_details$Timestamp)}"
-lastmod: "{Sys.Date()}"
+lastmod: "{lubridate::with_tz(Sys.time(),tz = "UTC")}"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -225,8 +225,8 @@ create_partner_report <- function(org_alias){
 linktitle: Data reports | {organisation_name}
 summary: List of curated datasets
 title: {organisation_name}
-date: "{Sys.Date()}"
-lastmod: "{Sys.Date()}"
+date: "{lubridate::with_tz(Sys.time(),tz = "UTC")}"
+lastmod: "{lubridate::with_tz(Sys.time(),tz = "UTC")}"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
