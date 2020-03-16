@@ -97,7 +97,7 @@ weight: 1
 
 # Page metadata.
 title: {org_dataset_title}
-date: "{as.Date(org_details$Timestamp)}"
+date: "{lubridate::with_tz(ymd_hms(org_details$Timestamp,tz = "Asia/Calcutta"),tz = "UTC")}"
 lastmod: "{lubridate::with_tz(Sys.time(),tz = "UTC")}"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
