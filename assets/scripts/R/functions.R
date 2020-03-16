@@ -286,11 +286,11 @@ all_data_report <- function(){
   yaml_metadata <- glue('
 title: "Data Reports"
 draft: no
-date: "{Sys.Date()}"
+date: "{lubridate::with_tz(Sys.time(),tz = "UTC")}"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "{Sys.Date()}"
+lastmod: "{lubridate::with_tz(Sys.time(),tz = "UTC")}"
 type: post
 ')
   
