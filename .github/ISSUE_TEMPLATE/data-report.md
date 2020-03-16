@@ -53,6 +53,6 @@ assignees: ''
 - Mention the license under which this dataset is to be released on the JusticeHub. Please refer to this [link](https://data.humdata.org/about/license) for learning more about open data licenses
 
 :chart_with_upwards_trend: Improving data accessibility:
-- If possible, share all files listed under [Files available](#files-available)
+- If possible, share all files listed under the `Files available` section above.
 - Share the data as `CSV` files.
 - Include a README file which is short description about the dataset. Refer [here](), to know more
