@@ -1,15 +1,15 @@
 ---
-linktitle: Data reports | NIPFP
+linktitle: Data reports | Nipfp
 summary: List of curated datasets
-title: NIPFP
-date: "2020-03-08"
-lastmod: "2020-03-08"
+title: Nipfp
+date: "2020-03-16"
+lastmod: "2020-03-16"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 menu:
   onboarding:
-    name: NIPFP
+    name: Nipfp
 ---
 <table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
  <thead>

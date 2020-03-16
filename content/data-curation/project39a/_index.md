@@ -1,15 +1,15 @@
 ---
-linktitle: Data reports | Project 39A
+linktitle: Data reports | Project39a
 summary: List of curated datasets
-title: Project 39A
-date: "2020-03-08"
-lastmod: "2020-03-08"
+title: Project39a
+date: "2020-03-16"
+lastmod: "2020-03-16"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 menu:
   onboarding:
-    name: Project 39A
+    name: Project39a
 ---
 <table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
  <thead>
@@ -22,7 +22,7 @@ menu:
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> <a href="Death-Penalty-in-India:-Annual-Statistics-2019" style="     ">Death Penalty in India: Annual Statistics 2019</a> </td>
+   <td style="text-align:left;"> <a href="Death-Penalty-in-India-Annual-Statistics-2019" style="     ">Death Penalty in India: Annual Statistics 2019</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_" style="     ">https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/14" style="     ">https://github.com/justicehub-in/justice-hub-docs/issues/14</a> </td>
    <td style="text-align:left;"> Open </td>

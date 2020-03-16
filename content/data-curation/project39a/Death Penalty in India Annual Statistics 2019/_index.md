@@ -6,11 +6,11 @@ weight: 1
 # Page metadata.
 title: Death Penalty in India Annual Statistics 2019
 date: "2020-03-07"
-lastmod: "2020-03-08"
+lastmod: "2020-03-16"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
-tags: [death penalty,,sentenced to death,commuted confirmed,acquitted,remitted]
+tags: [death penalty,sentenced to death,commuted confirmed,acquitted,remitted]
 
 # Add menu entry to sidebar.
 # - name: Declare this menu item as a parent with ID `name`.
@@ -19,7 +19,7 @@ menu:
   onboarding:
     name: Death Penalty Directory 2019
     weight: 1
-    parent: Project 39A
+    parent: Project39a
 ---
 ### Dateset details
 |Variable                                                          |Description                                                                                                        |
@@ -29,7 +29,7 @@ menu:
 |Data source details                                               |NA                                                                                                                 |
 |Dataset License                                                   |NA                                                                                                                 |
 |Total files                                                       |1                                                                                                                  |
-|Date of data collection/publication                               |1579046400                                                                                                         |
+|Date of data collection/publication                               |2020-01-15                                                                                                         |
 |Do we maintain a data dictionary                                  |No                                                                                                                 |
 |Is the data available in machine readable formats                 |Yes                                                                                                                |
 |How was the data collected                                        |Web scraping of news reports, mining court websites                                                                |

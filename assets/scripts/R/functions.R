@@ -3,10 +3,9 @@ title_to_link <- function(title){
   if(!is.na(title)){
     title_link <-
       title %>% 
-      str_replace_all(pattern = '[\\(\\)\\-]', replacement = ' ') %>% 
-      str_trim() %>% 
-      str_replace_all(pattern = '[:space:]+', replacement = '-') %>%
-      str_trim(side = 'both')
+      str_replace_all(pattern = '[\\(\\)\\-\\:]', replacement = ' ') %>% 
+      str_trim() %>% str_squish() %>% 
+      str_replace_all(pattern = '[:space:]+', replacement = '-')
   } else {
     title_link <- title
   }
@@ -65,7 +64,7 @@ create_data_report <- function(org_alias) {
     org_dataset_title <- stringr::str_replace_all(org_dataset_title, pattern="[[:punct:]]", replacement = '')
     org_dataset_description <- org_details[, 'Description'][[i]]
     dataset_identifier <- org_details[, 'Dataset Identifier'][[i]]
-    org_name <- org_details[, 'Organisation Name'][[i]]
+    org_name <- org_details[, 'Organisation Name'][[i]]%>% stringr::str_to_title() %>% stringr::str_replace_all(pattern = " ",replacement = "")
     
     # Data Report path[s]
     org_directory <-
@@ -206,7 +205,7 @@ create_partner_report <- function(org_alias){
     )
   
   org_details <- form_responses[form_responses$org_alias == org_alias,dataset_columns]
-  organisation_name <- unique(org_details[,'Organisation Name'])
+  organisation_name <- unique(org_details[,'Organisation Name']) %>% stringr::str_to_title() %>% stringr::str_replace_all(pattern = " ",replacement = "")
   
   
   # Data Report path[s]
