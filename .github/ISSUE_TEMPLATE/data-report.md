@@ -9,32 +9,49 @@ assignees: ''
 
 ## Data Accessibility Report
 
-### Links:
+| Links              |
+|--------------------|
+| [Sample Dataset]()     |
+| [Data Documentation]() |
+| [Data Dictionary]()    |
 
-* [Sample Dataset]()
-* [Data Documentation]()
-* [Data Dictionary]()
 
 --- 
 
 ### Files available
 
-- [ ] Data dictionary (Human readable dictionary of data contents)
-- [ ] Data License (How to use and share the data)
-- [ ] Raw Dataset (The original/first data provided)
-- [ ] Processed Dataset (Final data used in analysis)
-- [ ] Dataset README (A Human readable description of the data)
-- [ ] Citation (How you want your data to be cited)
+| Files                                                        | Status |
+|--------------------------------------------------------------|--------|
+| Data dictionary (Human readable dictionary of data contents) |       :x: |
+| Data License (How to use and share the data)                 |       :x: |
+| Raw Dataset (The original/first data provided)               |      :x: |
+| Processed Dataset (Final data used in analysis)              |    :x:     |
+| Dataset README (A Human readable description of the data)    |        :x:|
+| Citation (How you want your data to be cited)                |       :x: |
 
 ### Data Cleaning & Standardisation Report
 
-- [ ] Presence of PII's (Personally Identifiable Information)
-- [ ] Data to be uploaded is in a machine-readable format (CSV, JSON)
+| Issue                                                           | Status |
+|-----------------------------------------------------------------|--------|
+| Data does not have any PII's (Personally Identifiable Information)         |  :x:  |
+| Data to be uploaded is in a machine-readable format (CSV, JSON) |    :x: |
 
 ### Other details
 
 - [ ] Data maintainer details
 
-### Comments
+### Comments/Next Steps:
 
--
+- Variables with personally identifiable information (PII's) (As per our data sharing policy, we are not uploading any datasets with sensitive information either about communities (CII's) or individuals):
+| Worksheet/File                  | Variable       |
+|----------------------------|----------------|
+|  |  |
+
+:heavy_exclamation_mark: Important:
+- Please share a link to the data dictionary (This is a CSV file which contains information about the columns present in all files under a dataset). You can also download and use [this]() template, to create a basic data dictionary for this dataset)
+- Mention the license under which this dataset is to be released on the JusticeHub. Please refer to this [link](https://data.humdata.org/about/license) for learning more about open data licenses
+
+:chart_with_upwards_trend: Improving data accessibility:
+- If possible, share all files listed under [Files available](#files-available)
+- Share the data as `CSV` files.
+- Include a README file which is short description about the dataset. Refer [here](), to know more
