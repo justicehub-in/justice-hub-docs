@@ -49,10 +49,10 @@ assignees: ''
 | sample-file | sample-col-name |
 
 :heavy_exclamation_mark: Important:
-- Please share a link to the data dictionary (This is a CSV file which contains information about the columns present in all files under a dataset). You can also download and use [this]() template, to create a basic data dictionary for this dataset)
-- Mention the license under which this dataset is to be released on the JusticeHub. Please refer to this [link](https://data.humdata.org/about/license) for learning more about open data licenses
+- Please share a link to the data dictionary (This is a CSV file which contains information about the columns present in all files under a dataset). [Learn more](https://justicehub.in/resources/data-dictionary/)
+- Mention the license under which this dataset is to be released on the JusticeHub. Please refer to this [link](https://justicehub.in/resources/open-data-licences/) for learning more about open data licenses
 
 :chart_with_upwards_trend: Improving data accessibility:
 - If possible, share all files listed under the `Files available` section above.
 - Share the data as `CSV` files.
-- Include a README file which is short description about the dataset. Refer [here](), to know more
+- Include a README file which is short description about the dataset. Refer [here](https://justicehub.in/resources/readme-file/), to know more
