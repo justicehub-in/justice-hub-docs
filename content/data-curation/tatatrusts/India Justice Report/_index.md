@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: India Justice Report
 date: "2020-03-16 19:19:14"
-lastmod: "2020-03-16 20:44:34"
+lastmod: "2020-03-18 11:30:18"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.

@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Death Penalty in India Annual Statistics 2019
 date: "2020-03-07 13:36:22"
-lastmod: "2020-03-16 20:44:34"
+lastmod: "2020-03-18 11:30:17"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -29,7 +29,7 @@ menu:
 |Data source details                                               |NA                                                                                                                 |
 |Dataset License                                                   |NA                                                                                                                 |
 |Total files                                                       |1                                                                                                                  |
-|Date of data collection/publication                               |2020-01-15                                                                                                         |
+|Date of data collection/publication                               |1579046400                                                                                                         |
 |Do we maintain a data dictionary                                  |No                                                                                                                 |
 |Is the data available in machine readable formats                 |Yes                                                                                                                |
 |How was the data collected                                        |Web scraping of news reports, mining court websites                                                                |

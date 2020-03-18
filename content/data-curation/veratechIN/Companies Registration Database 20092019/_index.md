@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Companies Registration Database 20092019
 date: "2020-02-27 14:19:55"
-lastmod: "2020-03-16 20:44:34"
+lastmod: "2020-03-18 11:30:17"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -29,7 +29,7 @@ menu:
 |Data source details                                               |Ministry of Corporate Affairs                                                                                                                                                  |
 |Dataset License                                                   |NA                                                                                                                                                                             |
 |Total files                                                       |4                                                                                                                                                                              |
-|Date of data collection/publication                               |NULL                                                                                                                                                                           |
+|Date of data collection/publication                               |NA                                                                                                                                                                             |
 |Do we maintain a data dictionary                                  |Yes                                                                                                                                                                            |
 |Is the data available in machine readable formats                 |Yes                                                                                                                                                                            |
 |How was the data collected                                        |Web Scraping                                                                                                                                                                   |
