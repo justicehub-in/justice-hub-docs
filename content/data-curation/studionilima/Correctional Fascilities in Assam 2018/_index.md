@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Correctional Fascilities in Assam 2018
 date: "2020-03-16 12:54:50"
-lastmod: "2020-03-18 11:30:17"
+lastmod: "2020-03-19 12:18:51"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -29,7 +29,7 @@ menu:
 |Data source details                                               |Information not available                                                    |
 |Dataset License                                                   |NA                                                                           |
 |Total files                                                       |1                                                                            |
-|Date of data collection/publication                               |1546992000                                                                   |
+|Date of data collection/publication                               |2019-01-09                                                                   |
 |Do we maintain a data dictionary                                  |No                                                                           |
 |Is the data available in machine readable formats                 |Yes                                                                          |
 |How was the data collected                                        |RTI                                                                          |

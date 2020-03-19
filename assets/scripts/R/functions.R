@@ -16,6 +16,7 @@ title_to_link <- function(title){
 read_form_responses <- function(){
   form_responses_link <- 'https://docs.google.com/spreadsheets/d/1GSa_hZkvdsd3YsvGUiiks08hVLRkrKWx4yb8MDI-2VU/edit?usp=sharing'
   form_responses <- sheets_read(ss = form_responses_link)
+  form_responses$`Date of data collection/publication` <- form_responses$`Date of data collection/publication` %>% as.character()
   form_responses$org_alias <-
     form_responses$`Organisation Name` %>% unique() %>% stringr::str_to_lower() %>% stringr::str_trim() %>% stringr::str_replace_all(" ","")
   form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'

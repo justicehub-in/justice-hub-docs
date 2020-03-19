@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: India Justice Report
 date: "2020-03-16 19:19:14"
-lastmod: "2020-03-18 11:30:18"
+lastmod: "2020-03-19 12:18:51"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -29,7 +29,7 @@ menu:
 |Data source details                                               |Multiple sources, Government of India                                                                                                                                                                                                                                                                                                   |
 |Dataset License                                                   |NA                                                                                                                                                                                                                                                                                                                                      |
 |Total files                                                       |47                                                                                                                                                                                                                                                                                                                                      |
-|Date of data collection/publication                               |1573084800                                                                                                                                                                                                                                                                                                                              |
+|Date of data collection/publication                               |2019-11-07                                                                                                                                                                                                                                                                                                                              |
 |Do we maintain a data dictionary                                  |Maybe                                                                                                                                                                                                                                                                                                                                   |
 |Is the data available in machine readable formats                 |Yes                                                                                                                                                                                                                                                                                                                                     |
 |How was the data collected                                        |RTI, Web scraping                                                                                                                                                                                                                                                                                                                       |
