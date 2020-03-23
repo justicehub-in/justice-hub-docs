@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-03-19 12:18:51"
+date: "2020-03-23 11:13:03"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-03-19 12:18:51"
+lastmod: "2020-03-23 11:13:03"
 type: post
 ---
 <table>
@@ -50,7 +50,7 @@ type: post
    <td style="text-align:left;"> <a href="../data-curation/project39a/Death-Penalty-in-India-Annual-Statistics-2019" style="     " >Death Penalty in India: Annual Statistics 2019</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_" style="     " >https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/14" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/14</a> </td>
-   <td style="text-align:left;"> Open </td>
+   <td style="text-align:left;"> Close </td>
   </tr>
   <tr>
    <td style="text-align:left;"> <a href="../data-curation/studionilima" style="     " >Studio Nilima</a> </td>

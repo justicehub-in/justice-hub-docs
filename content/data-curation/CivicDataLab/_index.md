@@ -2,8 +2,8 @@
 linktitle: Data reports | Civicdatalab
 summary: List of curated datasets
 title: Civicdatalab
-date: "2020-03-19 12:18:51"
-lastmod: "2020-03-19 12:18:51"
+date: "2020-03-23 11:13:02"
+lastmod: "2020-03-23 11:13:02"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.

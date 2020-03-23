@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: All POCSO cases registered in Delhi district courts between 2012 and 2019
 date: "2020-02-19 09:37:33"
-lastmod: "2020-03-19 12:18:51"
+lastmod: "2020-03-23 11:13:03"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.

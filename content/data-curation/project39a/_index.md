@@ -2,8 +2,8 @@
 linktitle: Data reports | Project39a
 summary: List of curated datasets
 title: Project39a
-date: "2020-03-19 12:18:51"
-lastmod: "2020-03-19 12:18:51"
+date: "2020-03-23 11:13:02"
+lastmod: "2020-03-23 11:13:02"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -25,7 +25,7 @@ menu:
    <td style="text-align:left;"> <a href="Death-Penalty-in-India-Annual-Statistics-2019" style="     ">Death Penalty in India: Annual Statistics 2019</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_" style="     ">https://drive.google.com/open?id=1Ejyg5rbxzz8yaZooeDEzzPEH6MalLup_</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/14" style="     ">https://github.com/justicehub-in/justice-hub-docs/issues/14</a> </td>
-   <td style="text-align:left;"> Open </td>
+   <td style="text-align:left;"> Close </td>
   </tr>
 </tbody>
 </table>
