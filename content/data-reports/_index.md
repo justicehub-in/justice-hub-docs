@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-03-23 11:13:03"
+date: "2020-04-06 07:56:08"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-03-23 11:13:03"
+lastmod: "2020-04-06 07:56:08"
 type: post
 ---
 <table>
