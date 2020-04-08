@@ -18,7 +18,7 @@ read_form_responses <- function(){
   form_responses <- sheets_read(ss = form_responses_link)
   form_responses$`Date of data collection/publication` <- form_responses$`Date of data collection/publication` %>% as.character()
   form_responses$org_alias <-
-    form_responses$`Organisation Name` %>% unique() %>% stringr::str_to_lower() %>% stringr::str_trim() %>% stringr::str_replace_all(" ","")
+    form_responses$`Organisation Name` %>% stringr::str_to_lower() %>% stringr::str_trim() %>% stringr::str_replace_all(" ","")
   form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
   return(form_responses)
 }

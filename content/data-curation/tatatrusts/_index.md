@@ -2,8 +2,8 @@
 linktitle: Data reports | TataTrusts
 summary: List of curated datasets
 title: TataTrusts
-date: "2020-04-06 07:56:08"
-lastmod: "2020-04-06 07:56:08"
+date: "2020-04-08 07:31:42"
+lastmod: "2020-04-08 07:31:42"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -25,7 +25,7 @@ menu:
    <td style="text-align:left;"> <a href="India-Justice-Report" style="     ">India Justice Report</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU" style="     ">https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/17" style="     ">https://github.com/justicehub-in/justice-hub-docs/issues/17</a> </td>
-   <td style="text-align:left;"> Open </td>
+   <td style="text-align:left;"> Close </td>
   </tr>
 </tbody>
 </table>

@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: India Justice Report
 date: "2020-03-16 19:19:14"
-lastmod: "2020-04-06 07:56:08"
+lastmod: "2020-04-08 07:31:42"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -44,7 +44,7 @@ menu:
 |Dataset URL                                                       |https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU                                                                                                                                                                                                                                                            |
 |Data Dictionary URL                                               |https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU                                                                                                                                                                                                                                                            |
 |Dataset issue report                                              |https://github.com/justicehub-in/justice-hub-docs/issues/17                                                                                                                                                                                                                                                                             |
-|Data Issue Status                                                 |Open                                                                                                                                                                                                                                                                                                                                    |
+|Data Issue Status                                                 |Close                                                                                                                                                                                                                                                                                                                                   |
 |Dataset Identifier                                                |india justice report 2019                                                                                                                                                                                                                                                                                                               |
 ### Research Links
 * https://www.tatatrusts.org/upload/pdf/overall-report-single.pdf

@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-04-06 07:56:08"
+date: "2020-04-08 07:31:42"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-04-06 07:56:08"
+lastmod: "2020-04-08 07:31:42"
 type: post
 ---
 <table>
@@ -66,6 +66,14 @@ type: post
    <td style="text-align:left;"> <a href="../data-curation/tatatrusts/India-Justice-Report" style="     " >India Justice Report</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU" style="     " >https://drive.google.com/drive/u/1/folders/1P5ianD56h0MqT531RemmK4LNkHQjWfBU</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/17" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/17</a> </td>
+   <td style="text-align:left;"> Close </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <a href="../data-curation/nickrobinson" style="     " >Nick Robinson</a> </td>
+   <td style="text-align:left;"> 2020-04-08 </td>
+   <td style="text-align:left;"> <a href="../data-curation/nickrobinson/Supreme-Court-Case-Workload" style="     " >Supreme Court Case Workload</a> </td>
+   <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Oo8xJqZpG4QSS1pS8WDpYSEVhcPY6z5I" style="     " >https://drive.google.com/open?id=1Oo8xJqZpG4QSS1pS8WDpYSEVhcPY6z5I</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/19" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/19</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>
