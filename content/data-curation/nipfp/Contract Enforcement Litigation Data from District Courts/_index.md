@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Contract Enforcement Litigation Data from District Courts
 date: "2020-02-21 12:08:43"
-lastmod: "2020-04-13 05:28:43"
+lastmod: "2020-04-13 05:45:03"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
