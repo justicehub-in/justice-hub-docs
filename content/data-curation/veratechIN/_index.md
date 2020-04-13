@@ -2,8 +2,8 @@
 linktitle: Data reports | Veratech
 summary: List of curated datasets
 title: Veratech
-date: "2020-04-08 07:31:42"
-lastmod: "2020-04-08 07:31:42"
+date: "2020-04-13 05:28:43"
+lastmod: "2020-04-13 05:28:43"
 draft: false  # Is this a draft? true/false
 toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.

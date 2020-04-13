@@ -1,7 +1,7 @@
 ---
-linktitle: Data reports | Civicdatalab
+linktitle: Data reports | Vidhi
 summary: List of curated datasets
-title: Civicdatalab
+title: Vidhi
 date: "2020-04-13 05:28:43"
 lastmod: "2020-04-13 05:28:43"
 draft: false  # Is this a draft? true/false
@@ -9,7 +9,7 @@ toc: false  # Show table of contents? true/false
 type: docs  # Do not modify.
 menu:
   onboarding:
-    name: Civicdatalab
+    name: Vidhi
 ---
 <table class="table table-condensed table-responsive" style="margin-left: auto; margin-right: auto;">
  <thead>
@@ -22,10 +22,10 @@ menu:
  </thead>
 <tbody>
   <tr>
-   <td style="text-align:left;"> <a href="All-POCSO-cases-registered-in-Delhi-district-courts-between-2012-and-2019" style="     ">All POCSO cases registered in Delhi district courts between 2012 and 2019</a> </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
-   <td style="text-align:left;"> NA </td>
+   <td style="text-align:left;"> <a href="Judicial-Vacancies-in-India" style="     ">Judicial Vacancies in India</a> </td>
+   <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1TJilpzY-oH6hXL9maOFWaHZwGRDNvtz8" style="     ">https://drive.google.com/open?id=1TJilpzY-oH6hXL9maOFWaHZwGRDNvtz8</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/22" style="     ">https://github.com/justicehub-in/justice-hub-docs/issues/22</a> </td>
+   <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>
 </table>

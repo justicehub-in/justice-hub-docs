@@ -1,11 +1,11 @@
 ---
 title: "Data Reports"
 draft: no
-date: "2020-04-08 07:31:42"
+date: "2020-04-13 05:28:43"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-04-08 07:31:42"
+lastmod: "2020-04-13 05:28:43"
 type: post
 ---
 <table>
@@ -74,6 +74,14 @@ type: post
    <td style="text-align:left;"> <a href="../data-curation/nickrobinson/Supreme-Court-Case-Workload" style="     " >Supreme Court Case Workload</a> </td>
    <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1Oo8xJqZpG4QSS1pS8WDpYSEVhcPY6z5I" style="     " >https://drive.google.com/open?id=1Oo8xJqZpG4QSS1pS8WDpYSEVhcPY6z5I</a> </td>
    <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/19" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/19</a> </td>
+   <td style="text-align:left;"> Open </td>
+  </tr>
+  <tr>
+   <td style="text-align:left;"> <a href="../data-curation/vidhi" style="     " >Vidhi</a> </td>
+   <td style="text-align:left;"> 2020-04-13 </td>
+   <td style="text-align:left;"> <a href="../data-curation/vidhi/Judicial-Vacancies-in-India" style="     " >Judicial Vacancies in India</a> </td>
+   <td style="text-align:left;"> <a href="https://drive.google.com/open?id=1TJilpzY-oH6hXL9maOFWaHZwGRDNvtz8" style="     " >https://drive.google.com/open?id=1TJilpzY-oH6hXL9maOFWaHZwGRDNvtz8</a> </td>
+   <td style="text-align:left;"> <a href="https://github.com/justicehub-in/justice-hub-docs/issues/22" style="     " >https://github.com/justicehub-in/justice-hub-docs/issues/22</a> </td>
    <td style="text-align:left;"> Open </td>
   </tr>
 </tbody>
