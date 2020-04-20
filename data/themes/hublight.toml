@@ -5,16 +5,16 @@ name = "hublight"
 light = true
 
 # Primary
-primary = "#75AADB"
+primary = "#423643"
 
 # Links
-link = "#4D8DC9"
-link_hover = "#ff70a3"
+link = "#00abb5"
+link_hover = "#fc5747"
 
 # Menu
-menu_primary = "#4D8DC9"
+menu_primary = "#423643"
 menu_text = "#ffffff"
-menu_text_active = "#b6cfe8"
+menu_text_active = "#fc5747"
 menu_title = "#ffffff"
 
 # Backgrounds
