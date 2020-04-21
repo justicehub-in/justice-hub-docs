@@ -55,16 +55,22 @@
 
 [[main]]
   pre = "<i class=\"fab fa-github fa-lg\"></i>"
-  name = ""
+  name = "&nbsp;"
   url = "https://github.com/justicehub-in/justice-hub-docs"
   weight = 70
 
-[[main]]
-  pre = "<i class=\"fab fa-osi fa-lg\"></i>"
-  name = "&nbsp;"
-  url = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/home"
-  weight = 80
+#[[main]]
+#  pre = "<i class=\"fab fa-osi fa-lg\"></i>"
+#  name = "&nbsp;"
+#  url = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/home"
+#  weight = 80
 
+[[main]]
+  pre = "<i class=\"fab fa-twitter fa-lg\"></i>"
+  name = ""
+  url = "https://twitter.com/JusticeHubIndia"
+  weight = 90
+  
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
 # [[main]]

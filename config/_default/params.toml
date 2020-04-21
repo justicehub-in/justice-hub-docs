@@ -105,7 +105,7 @@ email = "info@justicehub.in"
 # Contact links
 #   Set to `[]` to disable, or comment out unwanted lines with a hash `#`.
 contact_links = [
-  {icon = "twitter", icon_pack = "fab", name = "CivicDataLab", link = "https://twitter.com/CivicDatalab"},
+  {icon = "twitter", icon_pack = "fab", name = "CivicDataLab", link = "https://twitter.com/https://twitter.com/JusticeHubIndia"},
   {icon = "osi", icon_pack = "fab", name = "Project Wiki", link = "https://taiga.civicdatalab.in/project/apoorv-justice-data-hub/wiki/"},
   {icon = "github", icon_pack = "fab", name = "Justice Hub Documentation Repo", link = "https://github.com/justicehub-in/justice-hub-docs"},
   {icon = "medium", icon_pack = "fab", name = "Medium", link = "https://medium.com/civicdatalab"}
