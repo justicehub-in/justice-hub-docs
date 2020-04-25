@@ -52,6 +52,11 @@
   name = "Contact"
   url = "about#contact"
   weight = 60
+  
+[[main]]
+name = "Covid-19"
+url = "covid-19"
+weight = 61
 
 [[main]]
   pre = "<i class=\"fab fa-github fa-lg\"></i>"
