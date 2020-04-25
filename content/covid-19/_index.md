@@ -8,8 +8,7 @@ lastmod: '2020-04-24T00:00:00Z'
 type: post
 ---
 
-A live updated version of this list can also be accessed [here](https://bit.ly/justicehub-covid)
-
+A list of data and tech projects around law, policy and advocacy in the times of Covid-19.  We wanted to curate this information at one place and share these initiatives with a wider audience, mainly for inspiration, collaboration and learning. A live version of this list can also be accessed [here](https://bit.ly/justicehub-covid)
 
 | Title                                                        | Category           | Description                                                  | Organisation                                                 |
 | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
