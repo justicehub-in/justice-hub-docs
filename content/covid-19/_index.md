@@ -1,5 +1,5 @@
 ---
-title: "How the legal community is using data and tech at the times of Covid"
+title: "Using data and tech for advocacy in times of a pandemic"
 draft: no
 date: '2020-04-24T00:00:00Z'
 linktitle: Covid-19 Projects
