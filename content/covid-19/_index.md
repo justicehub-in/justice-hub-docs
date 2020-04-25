@@ -8,7 +8,7 @@ lastmod: '2020-04-24T00:00:00Z'
 type: post
 ---
 
-A live updated version of this list can also be accessed [here](https://docs.google.com/spreadsheets/d/e/2PACX-1vSiom3bHOU_-QQfQ6ztZii96ufXpr_c4W5D7AqymSi4xRInu5hRWNeO8l2A95JVgNqCgx3dKv97Zo0I/pubhtml?gid=0&single=true)
+A live updated version of this list can also be accessed [here](https://bit.ly/justicehub-covid)
 
 
 | Title                                                        | Category           | Description                                                  | Organisation                                                 |
