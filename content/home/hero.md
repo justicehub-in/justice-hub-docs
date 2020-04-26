@@ -47,11 +47,11 @@ hero_media = "JH-Logomark.png"
 * _A **collaborative community** of organisations and individuals working towards creating, curating and maintaining resources (commons) to advance and promote data driven legal research._ 
 * _A **repository** to access high quality legal data at one place_ 
 * _A **directory** to find, interact and collaborate with partners working towards a common goal_
-* _A **team** which works to build the data and tech capacity of partner organisations_ 
+* _A **team** that works towards building the data and tech capacity of partner organisations_ 
 
 <!--<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>-->
 
 
 {{% alert note %}}
-We're curating a list of data and technology projects around law, policy making and advocacy in the times of CoViD-19. Follow the list [here](covid-19/)
+We're curating a list of data and technology projects around law, policy making and advocacy in the times of CoViD-19. _Follow it [here](covid-19/)_
 {{% /alert %}}
