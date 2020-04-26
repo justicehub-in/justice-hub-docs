@@ -36,21 +36,22 @@ hero_media = "JH-Logomark.png"
   icon = "angle-right"
   
 [cta_alt]
-  url = ""
-  label = ""
+  url = "about/#contact"
+  label = "Get in touch!"
 
 # Note. An optional note to show underneath the links.
 [cta_note]
   label = ''
 +++
 
-_A legal data collaborative_
-
-* An open community
-* A platform to access quality legal data at one place 
-* A platform that enables collaboration around data storytelling and legal research
-* A collection of guidebooks and open source tools to work with data 
-* A platform that promotes empirical storytelling in the field of law and justice to narrate unbiased stories, state assumptions explicitly and stay closer to the truth. 
-
+* _A **collaborative community** of organisations and individuals working towards creating, curating and maintaining resources (commons) to advance and promote data driven legal research._ 
+* _A **repository** to access high quality legal data at one place_ 
+* _A **directory** to find, interact and collaborate with partners working towards a common goal_
+* _A **team** which works to build the data and tech capacity of partner organisations_ 
 
 <!--<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>-->
+
+
+{{% alert note %}}
+We're curating a list of data and technology projects around law, policy making and advocacy in the times of CoViD-19. Follow the list [here](covid-19/)
+{{% /alert %}}
