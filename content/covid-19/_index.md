@@ -29,6 +29,7 @@ _A list of data and tech projects around law, policy and advocacy in the times o
 | [Bank Industry - Response to the Corona Virus](https://www.aba.com/about-us/press-room/industry-response-coronavirus#AlphaB) | Economic Security  | Tracking bank responses to the coronavirus.                  | American Bankers Association                                 |
 | [COVID-19 Digital Rights Tracker](https://www.top10vpn.com/news/surveillance/covid-19-digital-rights-tracker/) | Digital Rights     | COVID-19 Digital Rights Tracker                              | Top10VPN                                                     |
 | [The Epidemiological  Implications of Incarceration Dynamics in Jails for Community,  Corrections Officer, and Incarcerated Population Risks from COVID-19](https://www.medrxiv.org/content/10.1101/2020.04.08.20058842v1) | Incarceration      | Modeling the epidemic in jails                               | Eric Lofgren, Kristian Lum, Aaron Horowitz, Brooke Madubuowu, Nina Fefferman |
+| [COVID-19 Lockdown, Migrant Workers, and the Inadequacy of Welfare Measures in India](https://countercurrents.org/wp-content/uploads/2020/04/Lockdown-and-Distress_Report-by-Stranded-Workers-Action-Network.pdf)             | Economic Security      |A report on the status of migrant labourers in India  | [Stranded Workers Action Network](https://twitter.com/strandedworkers)                                            |
 
 
 ### Contact Guidelines:
