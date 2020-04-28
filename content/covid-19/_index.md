@@ -10,6 +10,12 @@ type: post
 
 _A list of data and tech projects around law, policy and advocacy in the times of Covid-19.  We wanted to curate this information at one place and share these initiatives with a wider audience, mainly for inspiration, collaboration and learning. A live version of this list can also be accessed [here](https://bit.ly/justicehub-covid)_
 
+{{% alert note %}}
+As Justice Hub, we would love to be a part of these initiatives and support them from a data and technology perspective. So, let us know if you're working on something similar, and we shall get back to you as soon as possible. 
+
+_You can share the details [here](https://tinyurl.com/jh-covid-survey)_
+{{% /alert %}}
+
 | Title                                                        | Category           | Description                                                  | Group                                                 |
 | ------------------------------------------------------------ | ------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [COVID-19 Housing Policy Scorecard](https://evictionlab.org/covid-policy-scorecard/) | Eviction           | To better understand the steps states have taken to prevent homelessness during and after the pandemic, the Eviction Lab and Columbia Law  School’s Professor Emily Benfer have developed a policy scorecard for  each state, distilling the contents of thousands of newly-released  emergency orders, declarations, and legislation into a clear set of  critical measures included in, and left out of, state-level pandemic  responses related to eviction and housing. | Eviction Lab                                                 |
@@ -37,6 +43,5 @@ _A list of data and tech projects around law, policy and advocacy in the times o
 Write to us at [info@justicehub.in](info@justicehub.in):
 - If you would like to submit a project that is not listed here
 - Queries/Concerns about the projects that are listed here
-- For any data/tech support for legal data projects around Covid-19
 
 Follow us on [Twitter](https://twitter.com/JusticeHubIndia) to receive regular updates on **Justice Hub** - _A legal data and tech collaborative_
