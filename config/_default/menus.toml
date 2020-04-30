@@ -28,41 +28,49 @@
   parent = "about"
 
 [[main]]
+  name = "Data"
+  weight = 20
+  identifier = "data"
+  
+[[main]]
   name = "Data Contributors"
   url = "partner-curation"
-  weight = 20
+  weight = 10
+  parent = "data"
 
 [[main]]
   name = "Datasets"
   url = "data-curation"
-  weight = 30
+  weight = 20
+  parent = "data"
 
 [[main]]
   name = "Data Reports"
   url = "data-reports"
-  weight = 40
+  weight = 30
+  parent = "data"
 
 
 [[main]]
   name = "Resources"
   url = "resources"
-  weight = 50
+  weight = 30
 
 [[main]]
   name = "Contact"
   url = "about#contact"
-  weight = 60
+  weight = 40
   
 [[main]]
 name = "Covid-19"
 url = "covid-19"
-weight = 61
+weight = 50
 
 [[main]]
   pre = "<i class=\"fab fa-github fa-lg\"></i>"
   name = "&nbsp;"
   url = "https://github.com/justicehub-in/justice-hub-docs"
-  weight = 70
+  weight = 60
 
 #[[main]]
 #  pre = "<i class=\"fab fa-osi fa-lg\"></i>"
@@ -74,7 +82,7 @@ weight = 61
   pre = "<i class=\"fab fa-twitter fa-lg\"></i>"
   name = ""
   url = "https://twitter.com/JusticeHubIndia"
-  weight = 90
+  weight = 70
   
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
