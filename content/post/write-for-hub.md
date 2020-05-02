@@ -19,7 +19,7 @@ This talk by [Cormac Russell](https://www.nurturedevelopment.org/who-we-are/corm
 
 An in-person discussion with our partners or a group meeting to brain storm a few ideas for the Hub, is the most productive way to collaborate. But given the diversity, both geographical and in terms of work, sometimes it gets difficult to keep everyone involved about the activities around the Justice Hub. This is why, it is important as a group to write about these ideas, share them in a language people understand and relate to. Only then we'll walk on the path of inclusivity and collaboration. We, ourselves learn a lot from similar initiatives from around the globe. If they had not shared their journey, we could have not landed here at this time. Writing is our way of giving back, sharing what we have learnt and asking for help where needed. 
 
-In this post, we want to focus on the _Why_ of writing and we have another post that talks about the _how we write - the process_. Please check it out as well, if you'd want to write for the Justice Hub. Also, checkout the post by [Richard Bartlett](https://twitter.com/RichDecibels) on [_Minimum Viable Post: the Lean Approach to Writing Your Masterpiece_](https://medium.com/swlh/rich-s-general-theory-of-blogging-aa2cb502fbc)
+In this post, we want to focus on the _Why of writing_ and we have another post that talks about the [_how we write - the process_](https://hackmd.io/@justice-hub/BkIOvfjYL). Please check it out as well, if you'd like to write for the Justice Hub. Also, checkout the post by [Richard Bartlett](https://twitter.com/RichDecibels) on [_Minimum Viable Post: the Lean Approach to Writing Your Masterpiece_](https://medium.com/swlh/rich-s-general-theory-of-blogging-aa2cb502fbc)
 
 Here is a list of articles around legal data, data collaborative and everything in between:
 
@@ -27,4 +27,4 @@ Here is a list of articles around legal data, data collaborative and everything 
 * [Closing the data divide: the need for open data](https://blogs.microsoft.com/on-the-issues/2020/04/21/open-data-campaign-divide/)
 * [Anything by the Humanitarian Data Exchange (HDX) ](https://centre.humdata.org/category/blog/)
 
-Read something interesting ? Please, [edit this page](https://hackmd.io/ma5EG4o1SPWpZbkK0WVhQA) and add links. 
+Read something interesting ? Please, [edit this page](https://hackmd.io/ma5EG4o1SPWpZbkK0WVhQA) and add links to this list. 
