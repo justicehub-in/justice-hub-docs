@@ -1,6 +1,6 @@
 ---
 date: "2020-05-02T00:00:00Z"
-draft: true
+draft: false
 lastmod: "2020-05-02T00:00:00Z"
 linktitle: Legal data platforms
 menu:
