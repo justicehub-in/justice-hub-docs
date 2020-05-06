@@ -37,7 +37,7 @@ _You can share the details [here](https://tinyurl.com/jh-covid-survey)_
 | [The Epidemiological  Implications of Incarceration Dynamics in Jails for Community,  Corrections Officer, and Incarcerated Population Risks from COVID-19](https://www.medrxiv.org/content/10.1101/2020.04.08.20058842v1) | Incarceration      | Modeling the epidemic in jails                               | Eric Lofgren, Kristian Lum, Aaron Horowitz, Brooke Madubuowu, Nina Fefferman |
 | [COVID-19 Lockdown, Migrant Workers, and the Inadequacy of Welfare Measures in India](https://countercurrents.org/wp-content/uploads/2020/04/Lockdown-and-Distress_Report-by-Stranded-Workers-Action-Network.pdf)             | Economic Security      |A report on the status of migrant labourers in India  | [Stranded Workers Action Network](https://twitter.com/strandedworkers)                                            |
 | [COVID-19 Government Order Tracker - India](https://covid-india.in/)             | Governance      |COVID related relief measures order tracker for India  | [COVIDIndiaTrack](https://twitter.com/COVIDIndiaTrack) |
-
+| [Data protection and Coronavirus (COVID-19) resources](https://globalprivacyassembly.org/covid19/) | Data Protection and Privacy | The Global Privacy Assembly (GPA) recognises the unprecedented challenges being faced to address the spread of Coronavirus (COVID-19). Data protection authorities across the world stand ready to help facilitate swift and safe data sharing to fight COVID-19, while still providing the protections the public expects. We're curating the latest guidance and information from GPA members and observers on data protection and COVID-19.  | [Global Privacy Assembly](https://globalprivacyassembly.org/) |
 
 ### Contact Guidelines:
 
