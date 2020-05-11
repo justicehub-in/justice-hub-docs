@@ -5,6 +5,7 @@ date: '2020-05-02'
 tags: [writing]
 categories: [writing]
 summary: Writing is our way of giving back, sharing what we learned and asking for help where needed.
+jquerydisable: false
 ---
 
 The ideas behind a data or a community hub are not new. A few members of the Justice Hub team are part of one or the other open data hubs as either users or volunteers. Our work around a few data driven or empirical legal research projects, contributed to this idea of curating a repository of well documented datasets in the law and justice space and with that we started exploring this uncharted territory. 
