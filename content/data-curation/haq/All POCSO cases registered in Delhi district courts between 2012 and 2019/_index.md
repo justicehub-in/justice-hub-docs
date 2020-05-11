@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: All POCSO cases registered in Delhi district courts between 2012 and 2019
 date: "2020-02-19 09:37:33"
-lastmod: "2020-04-13 05:45:03"
+lastmod: "2020-05-11 18:24:58"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -19,7 +19,7 @@ menu:
   onboarding:
     name: POCSO 2012-2019
     weight: 1
-    parent: Civicdatalab
+    parent: Haq
 ---
 ### Dateset details
 |Variable                                                          |Description                                                                                                                                                                                                                                                                                                                                                                                   |

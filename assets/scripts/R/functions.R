@@ -14,6 +14,10 @@ title_to_link <- function(title){
 
 # Read all form responses
 read_form_responses <- function(){
+  # designate project-specific cache
+  options(gargle_oauth_cache = ".secrets",
+          gargle_oauth_email = "apoorv@civicdatalab.in")
+  # sheets_auth()
   form_responses_link <- 'https://docs.google.com/spreadsheets/d/1GSa_hZkvdsd3YsvGUiiks08hVLRkrKWx4yb8MDI-2VU/edit?usp=sharing'
   form_responses <- sheets_read(ss = form_responses_link)
   form_responses$`Date of data collection/publication` <- form_responses$`Date of data collection/publication` %>% as.character()

@@ -5,7 +5,7 @@ date: "2020-04-13 05:45:03"
 linktitle: Justice Hub | Data Reports
 summary: Data curation status for the Justice Hub
   legal datasets to be released in the first phase of the project
-lastmod: "2020-04-13 05:45:03"
+lastmod: "2020-05-12 05:45:03"
 type: post
 jquerydisable: true
 ---
@@ -23,7 +23,7 @@ source("../../assets/scripts/R/functions.R")
 source("../../assets/scripts/R/packages.R")
 ```
 
-```{r read form responses, echo=FALSE}
+```{r read form responses}
 all_form_responses <- read_form_responses()
 colnames_for_report <- c("Organisation Name", "Title", "Description", "Dataset issue report", "Data Issue Status","org_alias")
 data_report <- all_form_responses[,colnames_for_report]

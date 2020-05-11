@@ -6,7 +6,7 @@ weight: 1
 # Page metadata.
 title: Death Penalty in India Annual Statistics 2019
 date: "2020-03-07 13:36:22"
-lastmod: "2020-04-13 05:45:03"
+lastmod: "2020-05-11 18:24:58"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.

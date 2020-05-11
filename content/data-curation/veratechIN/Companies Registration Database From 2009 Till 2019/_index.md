@@ -1,12 +1,12 @@
 ---
-linktitle: Companies Registration Database 20092019
+linktitle: Companies Registration Database From 2009 Till 2019
 summary: Registration details of companies and directors in the last 10 years. The dataset is sourced from publically available resources at the Ministry of Corporate Affairs website.
 weight: 1
 
 # Page metadata.
-title: Companies Registration Database 20092019
+title: Companies Registration Database From 2009 Till 2019
 date: "2020-02-27 14:19:55"
-lastmod: "2020-04-13 05:45:03"
+lastmod: "2020-05-11 18:24:58"
 draft: false  # Is this a draft? true/false
 toc: true  # Show table of contents? true/false
 type: docs  # Do not modify.
@@ -24,10 +24,10 @@ menu:
 ### Dateset details
 |Variable                                                          |Description                                                                                                                                                                    |
 |:-----------------------------------------------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|Title                                                             |Companies Registration Database (2009-2019)                                                                                                                                    |
+|Title                                                             |Companies Registration Database (From 2009 Till 2019)                                                                                                                          |
 |Description                                                       |Registration details of companies and directors in the last 10 years. The dataset is sourced from publically available resources at the Ministry of Corporate Affairs website. |
 |Data source details                                               |Ministry of Corporate Affairs                                                                                                                                                  |
-|Dataset License                                                   |NA                                                                                                                                                                             |
+|Dataset License                                                   |https://creativecommons.org/licenses/by/4.0/                                                                                                                                   |
 |Total files                                                       |4                                                                                                                                                                              |
 |Date of data collection/publication                               |NA                                                                                                                                                                             |
 |Do we maintain a data dictionary                                  |Yes                                                                                                                                                                            |
