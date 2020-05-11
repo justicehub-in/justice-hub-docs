@@ -341,7 +341,7 @@ update_website <- function(){
   all_orgs <- unique(form_responses$org_alias)
   lapply(all_orgs, create_partner_report)
   lapply(all_orgs, create_data_report)
-  all_data_report()
+  # all_data_report()
   # blogdown::build_site(method = 'html')
 }
 
