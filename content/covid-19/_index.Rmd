@@ -30,7 +30,9 @@ all_form_responses <-
 names(all_form_responses)[] <- all_form_responses[6,]
 all_form_responses <- all_form_responses[7:nrow(all_form_responses),]
 
-
+all_form_responses$Title <- cell_spec(all_form_responses$Title, bold = TRUE)
+  
+  
 all_form_responses$URL <-
     ifelse(
       !is.na(all_form_responses$URL),
