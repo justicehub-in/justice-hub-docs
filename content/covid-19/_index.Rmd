@@ -1,0 +1,61 @@
+---
+title: "Using data and tech for advocacy in times of a pandemic"
+draft: no
+date: '2020-04-24T00:00:00Z'
+linktitle: Covid-19 Projects
+summary: Communities using data and tech to voice their agendas during Covid-19
+lastmod: '2020-04-24T00:00:00Z'
+type: post
+jquerydisable: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(
+	echo = FALSE,
+	message = FALSE,
+	warning = FALSE
+)
+```
+
+```{r source files}
+source("../../assets/scripts/R/functions.R")
+source("../../assets/scripts/R/packages.R")
+```
+
+```{r Read data from covid sheet}
+covid_sheet_url <- "https://docs.google.com/spreadsheets/d/1vwWZzNsa2AxBcLeid88dU0RmmseyJiF2eMYJvberV4w/edit?usp=sharing"
+
+all_form_responses <-
+  read_other_sheets(sheet_url = covid_sheet_url)
+names(all_form_responses)[] <- all_form_responses[6,]
+all_form_responses <- all_form_responses[7:nrow(all_form_responses),]
+
+
+all_form_responses$URL <-
+    ifelse(
+      !is.na(all_form_responses$URL),
+      text_spec(
+        all_form_responses$URL,
+        link = all_form_responses$URL
+      ),
+      all_form_responses$URL
+    )
+```
+
+_A list of data and tech projects around law, policy and advocacy in the times of Covid-19.  We wanted to curate this information at one place and share these initiatives with a wider audience, mainly for inspiration, collaboration and learning. A live version of this list can also be accessed [here](https://bit.ly/justicehub-covid)_
+
+{{% alert note %}}
+As Justice Hub, we would love to be a part of these initiatives and support them from a data and technology perspective. So, let us know if you're working on something similar, and we shall get back to you as soon as possible. 
+
+_You can share the details [here](https://tinyurl.com/jh-covid-survey)_
+{{% /alert %}}
+
+```{r show table}
+all_form_responses %>% DT::datatable(
+  rownames = FALSE,
+  class = 'cell-border stripe',
+  escape = FALSE,
+  filter = "top",
+  options = list(pageLength = 10)
+)
+```

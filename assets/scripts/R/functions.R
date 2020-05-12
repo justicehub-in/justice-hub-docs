@@ -13,17 +13,25 @@ title_to_link <- function(title){
 }
 
 # Read all form responses
-read_form_responses <- function(){
+read_form_responses <- function(sheet_url="https://docs.google.com/spreadsheets/d/1GSa_hZkvdsd3YsvGUiiks08hVLRkrKWx4yb8MDI-2VU/edit?usp=sharing"){
   # designate project-specific cache
   options(gargle_oauth_cache = ".secrets",
           gargle_oauth_email = "apoorv@civicdatalab.in")
   # sheets_auth()
-  form_responses_link <- 'https://docs.google.com/spreadsheets/d/1GSa_hZkvdsd3YsvGUiiks08hVLRkrKWx4yb8MDI-2VU/edit?usp=sharing'
+  form_responses_link <- sheet_url
   form_responses <- sheets_read(ss = form_responses_link)
   form_responses$`Date of data collection/publication` <- form_responses$`Date of data collection/publication` %>% as.character()
   form_responses$org_alias <-
     form_responses$`Organisation Name` %>% stringr::str_to_lower() %>% stringr::str_trim() %>% stringr::str_replace_all(" ","")
   form_responses$org_alias[form_responses$org_alias == 'veratech'] <- 'veratechIN'
+  return(form_responses)
+}
+
+read_other_sheets <- function(sheet_url){
+  # designate project-specific cache
+  options(gargle_oauth_cache = ".secrets",
+          gargle_oauth_email = "apoorv@civicdatalab.in")
+  form_responses <- sheets_read(ss = sheet_url)
   return(form_responses)
 }
 
