@@ -44,3 +44,4 @@ The CC0 is a "public domain" license. Data with a CC0 license means the data own
 - The following [licenses](https://opendefinition.org/licenses/) are conformant with the principles set forth in the [Open Definition](https://opendefinition.org/). 
 - A [guide](https://data.humdata.org/about/license) on Open Data Licensing by the [Humanatarian Data Exchange](https://data.humdata.org/)
 - A short [guide](https://theodi.org/article/publishers-guide-to-open-data-licensing/) curated by the [Open Data Institute](https://theodi.org/) on Open Data Licensing
+- [Difference Between Different Types Of Open Sources Licenses](https://fossbytes.com/open-sources-license-type/)
