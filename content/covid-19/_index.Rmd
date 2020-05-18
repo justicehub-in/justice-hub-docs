@@ -30,18 +30,11 @@ all_form_responses <-
 names(all_form_responses)[] <- all_form_responses[6,]
 all_form_responses <- all_form_responses[7:nrow(all_form_responses),]
 
-all_form_responses$Title <- cell_spec(all_form_responses$Title, bold = TRUE)
+# all_form_responses$Title <- cell_spec(all_form_responses$Title, bold = TRUE)
   
-  
-all_form_responses$URL <-
-    ifelse(
-      !is.na(all_form_responses$URL),
-      text_spec(
-        all_form_responses$URL,
-        link = all_form_responses$URL
-      ),
-      all_form_responses$URL
-    )
+all_form_responses$Title <-
+  text_spec(all_form_responses$Title,
+            link = all_form_responses$URL)
 ```
 
 _A list of data and tech projects around law, policy and advocacy in the times of Covid-19.  We wanted to curate this information at one place and share these initiatives with a wider audience, mainly for inspiration, collaboration and learning. A live version of this list can also be accessed [here](https://bit.ly/justicehub-covid)_
@@ -53,7 +46,7 @@ _You can share the details [here](https://tinyurl.com/jh-covid-survey)_
 {{% /alert %}}
 
 ```{r show table}
-all_form_responses %>% select(c("Title", "Description", "Category", "Group", "URL")) %>% arrange(Title) %>%  DT::datatable(
+all_form_responses %>% select(c("Title", "Description", "Category", "Group")) %>% arrange(Title) %>%  DT::datatable(
   rownames = FALSE,
   class = 'cell-border stripe',
   escape = FALSE,
