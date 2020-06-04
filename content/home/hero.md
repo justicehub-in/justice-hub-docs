@@ -53,5 +53,5 @@ hero_media = "JH-Logomark.png"
 
 
 {{% alert note %}}
-We're curating a list of data and technology projects around law, policy making and advocacy in the times of CoViD-19. _Follow it [here](covid-19/)_
+We're getting closer to launch the data portal with well documented datasets shared by our collaborators. Please follow the *Justice Hub* on [Twitter](https://twitter.com/JusticeHubIndia) to stay updated
 {{% /alert %}}
