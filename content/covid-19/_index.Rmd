@@ -25,6 +25,8 @@ source("../../assets/scripts/R/packages.R")
 ```{r Read data from covid sheet}
 covid_sheet_url <- "https://docs.google.com/spreadsheets/d/1vwWZzNsa2AxBcLeid88dU0RmmseyJiF2eMYJvberV4w/edit?usp=sharing"
 
+googlesheets4::gs4_deauth()
+
 all_form_responses <-
   read_other_sheets(sheet_url = covid_sheet_url)
 names(all_form_responses)[] <- all_form_responses[6,]
