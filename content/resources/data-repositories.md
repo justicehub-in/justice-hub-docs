@@ -25,5 +25,6 @@ Please check these links to learn more about the kind of information needed to m
     - [Kosovo – Killings, Migrations, and More](https://hrdag.org/kosovo-data/)
     - [Liberia – Truth and Reconciliation Commission](https://hrdag.org/liberia-data/)
     - [Sierra Leone – TRC Data and Statistical Appendix](https://hrdag.org/sierra-leone-data/)
+- [The CIRI Human Rights Dataset](http://www.humanrightsdata.com/p/data-documentation.html)
 
 Please [write to us](https://justicehub.in/about/#contact) and share examples, we can include in this list to learn more about documenting open legal data.
