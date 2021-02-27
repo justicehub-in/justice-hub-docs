@@ -19,7 +19,7 @@ knitr::include_graphics('images/jh-logo-stacked-color.jpg', dpi = NA)
 
 [Justice Hub](https://justicehub.in) is a collaborative community of organisations and individuals working towards creating, curating and maintaining resources (commons) to advance and promote data driven legal research.
 
-Our objective is to curate and host well-documented datasets on the platform. To move ahead on that route, We will use this space to share resources and guidebooks on how you can contribute good quality datasets on the platform. We will also use this space to highlight certain information resources curated from the community of legal data enthusiasts that can inspire us to open, standardise and maintain data repositories over a longer term that can help us fill a few data-gaps in the law and justice sector. 
+Our objective is to curate and host well-documented datasets on the platform. To move ahead on that route, we will use this space to share resources and guidebooks that might help you in contributing good quality datasets. We will also use this space to highlight certain information resources curated from the community of legal data enthusiasts so that we can learn and further evolve in our journeys to open and maintain data repositories over a longer term which can help fill a few large data-gaps in the law and justice sector. 
 
 To stay updated with the latest datasets, community events, and workshops join us on [Substack](https://dataforjustice.substack.com/). 
 
