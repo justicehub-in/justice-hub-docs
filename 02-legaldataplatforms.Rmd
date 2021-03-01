@@ -1,6 +1,9 @@
 # Legal Data Platforms {#legal-data-platforms}
 
-> A <a href="https://bit.ly/justicehub-covid" target="_blank">list</a> of data and tech projects around law, policy and advocacy in the times of Covid-19. 
+```{block, type='rmdimportant'}
+We curated a <a href="https://bit.ly/justicehub-covid" target="_blank">list</a> of data and tech projects around law, policy and advocacy in the times of COVID-19. 
+```
+
 
 * [Humanitarian Data Exchange](https://data.humdata.org)
 * [Prison Policy Initiative](https://prisonpolicy.org/data)
