@@ -43,7 +43,7 @@ A README is often the first place people will go to learn more about anything in
 
 With one README per dataset, It should be brief, and provide links to the other aforementioned sections. It should also contain any other guidance for the user on how to read and interpret the whole dataset.
 
-### README Examples {#readme-examples}
+**References**
 
 - [Vera Institute of Justice - Incarceration Trends Dataset](https://github.com/vera-institute/incarceration_trends/blob/master/README.md)
 
@@ -69,7 +69,7 @@ An example data dictionary table from [incarceration trends repository](https://
 
 Note: __Every data dictionary should also be provided in its raw form (e.g., a CSV) in the repository__
 
-### Data dictionary references {#data-dictionary-references}
+**References**
 
 - [The code book](https://github.com/jtleek/datasharing#the-code-book)
 - [How to code variables](https://github.com/jtleek/datasharing#how-to-code-variables)
@@ -94,7 +94,7 @@ Data with a license clearly establishes rules on how everyone can modify, use, a
 |Open Data Commons Attribution License (ODC-By)                                              |https://opendatacommons.org/licenses/by/          |
 |Open Data Commons Public Domain Dedication and License (PDDL)                               |https://opendatacommons.org/licenses/pddl/        |
 
-### Learn more about licensing {#license-references}
+**References**
 
 - The following [licenses](https://opendefinition.org/licenses/) are conformant with the principles set forth in the [Open Definition](https://opendefinition.org/). 
 - A [guide](https://data.humdata.org/about/license) on Open Data Licensing by the [Humanatarian Data Exchange](https://data.humdata.org/)
