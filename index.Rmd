@@ -1,3 +1,32 @@
+--- 
+title: "Justice Hub: Documentation & Resources"
+author: "Team Justice Hub"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+biblio-style: apalike
+link-citations: yes
+github-repo: justicehub-in/justice-hub-docs
+description: "Documentation and Resources website for the Justice Hub."
 ---
-site: blogdown:::blogdown_site
----
+
+# Preface {-}
+
+```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://justicehub.in'}
+knitr::include_graphics('images/jh-logo-stacked-color.jpg', dpi = NA)
+```
+
+<br >
+
+[Justice Hub](https://justicehub.in) is a collaborative community of organisations and individuals working towards creating, curating and maintaining resources (commons) to advance and promote data driven legal research.
+
+Our objective is to curate and host well-documented datasets on the platform. To move ahead on that route, we will use this space to share resources and guidebooks that might help you in contributing good quality datasets. We will also use this space to highlight certain information resources curated from the community of legal data enthusiasts so that we can learn and further evolve in our journeys to open and maintain data repositories over a longer term which can help fill a few large data-gaps in the law and justice sector. 
+
+To stay updated with the latest datasets, community events, and workshops join us on [Substack](https://dataforjustice.substack.com/). 
+
+<br >
+
+```{block, type='rmdimportant'}
+All content is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+```
