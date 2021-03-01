@@ -1,0 +1,20 @@
+# Links {#platform-links}
+
+**Platforms**
+
+1. Justice Hub - [Link](https://justicehub.in)
+2. Documentation Portal - [Link](https://docs.justicehub.in)
+
+**Social Media**
+
+1. [Twitter](https://twitter.com/JusticeHubIndia)
+2. [Substack](https://https://dataforjustice.substack.com/)
+3. [Youtube](https://www.youtube.com/channel/UCkETmnBNNjvvOJklZenNQaA/featured)
+
+**Code Repositories**
+
+1. Github - [Link](https://github.com/justicehub-in/)
+
+**Other Links**
+
+1. About the Hub - [Link](https://https://justicehub.in/about)
