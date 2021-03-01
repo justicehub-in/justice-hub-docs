@@ -1,0 +1,8 @@
+# How-To's {#howtos}
+
+ **How to upload a dataset to Justice Hub**
+
+```{r how-to-upload-video, echo=FALSE}
+knitr::include_url("https://www.youtube.com/embed/uO5ttrFZyJw?fs=1")
+```
+
