@@ -6,3 +6,48 @@
 knitr::include_url("https://www.youtube.com/embed/uO5ttrFZyJw?fs=1")
 ```
 
+## Searching for datasets on the hub {#dataset-search}
+
+```{block, type='rmdimportant'}
+[Link](https://docs.ckan.org/en/2.9/user-guide.html#search-in-detail) to the official CKAN documentation to search for datasets on CKAN platforms
+```
+
+[Justice Hub](https://justicehub.in) (JH) supports two search modes, both are used from the same search field. If the search terms entered into the search field contain no colon (“:”) JH will perform a simple search. If the search expression does contain at least one colon (“:”) JH will perform an advanced search.
+
+### Simple Search {#simple-search}
+
+The search words typed by the user in the search box defines the main “query” constituting the essence of the search. The `+` and `-` characters are treated as mandatory and prohibited modifiers for terms. Text wrapped in balanced quote characters (for example, "Assam Correctional Homes") is treated as a phrase. By default, all words or phrases specified by the user are treated as optional unless they are preceded by a `+` or a `-`.
+
+```{block, type='rmdimportant'}
+CKAN will search for the complete word and when doing simple search wildcards are not supported.
+```
+
+**Simple search examples**
+
+1. `census` will search for all the datasets containing the word “census” in the query fields.
+2. `census +2019` will search for all the datasets contaning the word “census” and filter only those matching also “2019” as it is treated as mandatory.
+3. `census -2019` will search for all the datasets containing the word “census” and will exclude “2019” from the results as it is treated as prohibited.
+4. `european census` will search for all the datasets containing the phrase “european census”.
+5. Searching for `testing` or `tested` will show also results containing the word “test”.
+
+```{block, type='rmdimportant'}
+If the Name of the dataset contains words separated by `-` it will consider each word independently in the search.
+```
+
+### Advanced Search {#advanced-search}
+
+If the query has a colon in it it will be considered a _fielded search_. This will allow us to use wildcards `*`, proximity matching `~` and general features described in Solr docs. The basic syntax is `field:term`.
+
+**Advanced Search Examples**
+
+1. `title:european` this will look for all the datasets containing in its title the word “european”.
+2. `title:europ*` this will look for all the datasets containing in its title a word that starts with “europ” like “europe” and “european”.
+3. `title:europe || title:africa` will look for datasets containing “europe” or “africa” in its title.
+4. `title: "european census" ~ 4` A proximity search looks for terms that are within a specific distance from one another. This example will look for datasets which title contains the words “european” and “census” within a distance of 4 words.
+5. `author:powell~` CKAN supports fuzzy searches based on the Levenshtein Distance, or Edit Distance algorithm. To do a fuzzy search use the “~” symbol at the end of a single-word term. In this example words like “jowell” or “pomell” will also be found.
+
+```{block, type='rmdimportant'}
+Field names used in advanced search may differ from Datasets Attributes, the mapping rules are defined in the schema file. You can use title to search by the dataset name and text to look in a catch-all field that includes author, license, mantainer, tags, etc.
+```
+
+We're working to add more contextual examples to our documentation. Meanwhile. if you face any issues or have any doubts, please write to [info@justicehub.in](mailto:info@justicehub.in) and we'll be happy to assist you in exploring and finding datasets on the [Justice Hub](https://justicehub.in). 
