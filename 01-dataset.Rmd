@@ -6,8 +6,9 @@
 knitr::include_url("https://www.youtube.com/embed/7wrBtB_coJc?fs=1")
 ```
 
-
-> Note: Content under this section is reproduced from a research paper titled -  [A Realistic Guide to Making Data Available Alongside Code to Improve Reproducibility](https://karthik.github.io/ddd) by [Nicholas J Tierney](http://www.njtierney.com/) & [Karthik Ram](https://ram.berkeley.edu/). 
+```{block, type='rmdimportant'}
+Note: Content under this section is reproduced from a research paper titled -  [A Realistic Guide to Making Data Available Alongside Code to Improve Reproducibility](https://karthik.github.io/ddd) by [Nicholas J Tierney](http://www.njtierney.com/) & [Karthik Ram](https://ram.berkeley.edu/). 
+```
 
 To share data analysis data, there should be some minimal set of requirements. For example, the data should contain information on metadata, data dictionaries, the README, and data used in analysis. 
 
