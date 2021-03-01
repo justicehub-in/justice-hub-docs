@@ -7,7 +7,6 @@ bookdown::gitbook:
   title: "Justice Hub | Documentation"
   description: "Guidebooks, links and other resources to enable curation and exploration of legal datasets on the Justice Hub"
   github-repo: "justicehub-in/justice-hub-docs"
-  url: 'https://docs.justicehub.in'
   config:
     toc:
       collapse: none
