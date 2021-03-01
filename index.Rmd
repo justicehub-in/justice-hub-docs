@@ -13,16 +13,11 @@ description: "Documentation and Resources website for the Justice Hub."
 
 # Preface {-}
 
-::: {.infobox}
-**A note from the authors**: Some of the information and instructions in this book are now out of date because of changes to Hugo and the blogdown package.
-If you have suggestions for improving this book, please file an issue in our [GitHub repository](https://github.com/rstudio/blogdown/issues/new?template=documentation.md).
-Thanks for your patience while we work to update the book, and please stay tuned for the revised version! <br>
-&mdash; Yihui, Amber, & Alison
-:::
-
 ```{r fig.align='center', echo=FALSE, include=identical(knitr:::pandoc_to(), 'html'), fig.link='https://justicehub.in'}
 knitr::include_graphics('images/jh-logo-stacked-color.jpg', dpi = NA)
 ```
+
+<br >
 
 [Justice Hub](https://justicehub.in) is a collaborative community of organisations and individuals working towards creating, curating and maintaining resources (commons) to advance and promote data driven legal research.
 
@@ -30,7 +25,8 @@ Our objective is to curate and host well-documented datasets on the platform. To
 
 To stay updated with the latest datasets, community events, and workshops join us on [Substack](https://dataforjustice.substack.com/). 
 
+<br >
 
-![Creative Commons License](images/by-nc-sa.png)
-
+```{block, type='rmdimportant'}
 All content is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+```
