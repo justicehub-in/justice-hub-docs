@@ -27,7 +27,7 @@ CKAN will search for the complete word and when doing simple search wildcards ar
 1. `census` will search for all the datasets containing the word “census” in the query fields.
 2. `census +2019` will search for all the datasets contaning the word “census” and filter only those matching also “2019” as it is treated as mandatory.
 3. `census -2019` will search for all the datasets containing the word “census” and will exclude “2019” from the results as it is treated as prohibited.
-4. `european census` will search for all the datasets containing the phrase “european census”.
+4. `"european census"` will search for all the datasets containing the phrase “european census”.
 5. Searching for `testing` or `tested` will show also results containing the word “test”.
 
 ```{block, type='rmdimportant'}
