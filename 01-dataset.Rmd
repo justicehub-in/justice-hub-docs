@@ -76,6 +76,7 @@ Note: __Every data dictionary should also be provided in its raw form (e.g., a C
 - [Data Dictionary: a how to and best practices](https://medium.com/@leapingllamas/data-dictionary-a-how-to-and-best-practices-a09a685dcd61)
 - [Create a data dictionary](https://kbroman.org/dataorg/pages/dictionary.html)
 - [How to Make a Data Dictionary](https://help.osf.io/hc/en-us/articles/360019739054-How-to-Make-a-Data-Dictionary)
+- [Datasheets for Datasets](https://arxiv.org/pdf/1803.09010.pdf)
 
 ## License {#license}
 
