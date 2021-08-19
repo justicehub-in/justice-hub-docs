@@ -1,4 +1,4 @@
-# Legal Data Platforms {#legal-data-platforms}
+# Other Legal Data Platforms {#legal-data-platforms}
 
 ```{block, type='rmdimportant'}
 We curated a <a href="https://bit.ly/justicehub-covid" target="_blank">list</a> of data and tech projects around law, policy and advocacy in the times of COVID-19. 

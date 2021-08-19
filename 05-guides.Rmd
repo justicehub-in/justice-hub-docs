@@ -1,5 +1,8 @@
 # How-To's {#howtos}
 
+
+## Uploading a dataset {#dataset-upload}
+
  **How to upload a dataset to Justice Hub**
 
 ```{r how-to-upload-video, echo=FALSE}
