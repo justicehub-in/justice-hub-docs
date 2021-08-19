@@ -1,0 +1,70 @@
+# Making open datasets more accessible {#data-accessibility}
+
+**The role of Justice Hub in making legal datasets more accessible**
+
+The road that leads to an enhanced access to justice starts with better access to information. Opening up data is one of the first steps to make our institutions more transparent and accountable. Open data helps people collaborate with each other on challenges that prevent timely justice for citizens. Over and above, open data creates opportunities for the markets to intervene and find sustainable solutions to these challenges that also impact the economy. There are innumerable benefits of opening up legal datasets, but so are the challenges associated with it. 
+
+One of the most common challenges facing us, as citizens, is lack of accessibility of open datasets. Opening up datasets that are accessible, is not a one step process but a journey which usually starts by publishing raw data online, but it does not end there. Unfortunately with most public datasets we encounter, it is often the first and last stage of this journey.
+
+Our objective when we started building the [Justice Hub](http://justicehub.in/) was to _make law and justice datasets more accessible_. But what is the process of making datasets more accessible and how can the Justice Hub ensure better accessibility of open datasets ?
+
+
+**Defining open data accessibility**
+
+The [open data charter](https://opendatacharter.net/principles/) is a set of 6 principles that represents a globally-agreed set of aspirational norms for how to publish data. One of the principles is _"Accessible and Usable"_ which is defined as -
+
+
+> _We recognize that when open data is released, it should be easily discoverable and accessible, and made available without bureaucratic or administrative barriers, which can deter people from accessing the data._
+
+The charter also provides some guidance of how datasets can be made more accessible:
+
+1. Publish data on a **central portal**, so that open data is easily discoverable and accessible in one place
+2. Release data in **open formats** to ensure that the data is available to the widest range of users to find, access, and use. In many cases, this will include providing data in multiple, standardized formats, so that it can be processed by computers and used by people
+3. Release data **free of charge**, under an open and unrestrictive license
+4. Release data **without mandatory registration**, allowing users to choose to download data without being required to identify themselves;
+5. Ensure data can be accessed and used effectively by the **widest range of users**. This may require the creation of initiatives to raise awareness of open data, promote data literacy, build capacity for effective use of open data, and ensure citizen, community, and civil society and private sector representatives have the tools and resources they need to effectively understand how public resources are used.
+
+Where does the Justice Hub fit in this context ? How are we progressing on our goal of making datasets more accessible ?
+
+
+**Justice Hub vs other data platforms**
+
+Justice Hub is  a good example especially for points 1( _publishing data in a central portal_), 3( _not behind paywalls_) and 4( _no mandatory registrations for downloading datasets_), as these are indeed  the core principles of the platform. Points 2( _data in open formats_) and 5( _users being able to use the datasets_) from the lists, are closely related to the **supply** and **demand** of datasets that are available on the portal and this is where the Justice Hub differs from traditional open data platforms.
+
+Let’s first discuss point 2 which is related to the supply side of open datasets.
+
+Certain open data platforms like the [Open Budgets India](https://openbudgetsindia.org/), etc. have been curating datasets themselves. They do this by mining important datasets from government websites. On such platforms, the data stewards (maintainers of datasets) have more control over the quality of data assets published on the platform. In comparison, platforms like the Justice Hub rely on _data contributors_ as their primary source of data collection. The Justice Hub here is the bridge built between the data contributors and the data users.
+
+A lot of data driven projects don’t start with an intent to open up the data and with time it gets harder to publish these datasets on any platform. At the time of publishing, the data contributors have to put in a lot of effort like documenting datasets and making sure that the datasets are complete and re-usable. Most often the raw data is not maintained and it is hard to reproduce the steps to get the final (processed) datasets from the raw (original) dataset. 
+
+These were a few issues that emerged during our conversation with our partners as we started building the platform. Our intent was to collect good quality datasets for the platform, but at the same time  being mindful of the effort it might take for the data contributors, especially if we were referring to datasets from legacy projects.
+
+This was indeed a challenge for us but at the same time,  an opportunity to work with  the data contributors on making datasets more accessible over a longer term, starting with projects that are more recent. 
+
+
+**What can a crowd sourced data platform do to improve the quality of data contributions ?**
+
+If you have already subscribed to our [newsletter](https://dataforjustice.substack.com/), you might have noticed a few updates regarding the online events we organise to promote datasets uploaded on the Justice Hub. This also creates an opportunity for the contributors to interact with the potential users of the dataset. We refer to these events as “[Date with data](https://www.youtube.com/watch?v=UMOKR6ooEuc)”. We have been conducting workshops that are focused towards learning concepts and tools for data collection, research and analysis. We also try to [document some good use-cases](https://docs.justicehub.in/platform-links.html) and open data projects from around the world especially in the areas of law and justice so we can share the knowledge with our community. We don’t think there is a short-cut to reach where we want to  with data contributions. But we are hopeful that consistent efforts over a longer term will ultimately be beneficial for our community.
+
+Now coming to the last and one of the most important points - _Ensuring that the data can be accessed and used effectively by the widest range of users_
+
+We can build a data platform and include hundreds of open datasets but it won’t be successful if the end users find it difficult to:
+
+1. Search the right dataset - _Discoverability_
+2. Make sense of it - _Documentation_
+3. Work on it - _Processing and Analysis_
+
+These three features are important as  they play a crucial role in deciding the impact of any open data platform or to see whether a data platform is really helping users achieve most from the datasets. These features also depend a lot upon the platform architecture and hence it is very important to start with a solid base that enables us to add or build certain features as per the platform requirements without changing a lot of things.  Justice Hub is built on top of [CKAN](https://ckan.org/) which is a popular open source data management system  used by several countries for managing their open data portals. Given its popularity as an open source product, thousands of developers have contributed in building the ecosystem of tools around it. Hence, platforms that are developed on CKAN can make use of these tools to access and connect datasets to a variety of services for research, analysis, story telling, to count a few.
+
+So, we have the base and there are tools available that can help users access and explore these datasets, so what’s next ?
+
+**The road ahead**
+
+Over the course of next few weeks, we’ll be sharing a few tutorials that can help you get started with the use of these tools to access the data on the Justice Hub and make it a part of your research and analysis workflow. A few use-cases that we’re starting with:
+
+1. How to stay updated with new datasets that are shared on the Justice Hub ?
+2. How to connect the Justice Hub to popular tools like Google Sheets for working with these datasets ?
+3. How to build stand alone data visualisations and dashboards using the data from the Justice Hub ?
+4. How to access datasets from the Justice Hub using an API ?
+
+We hope that these use-cases will help you learn more about the possibilities and at the same time encourage more data contributors to start contributing open datasets on the Justice Hub. In case you have a specific use-case that we should cover, or if you have any ideas or suggestions on how we can make the Justice Hub more accessible, please write to us at [info@justicehub.in](mailto:info@justicehub.in).
